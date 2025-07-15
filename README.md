@@ -18,3 +18,5 @@ If you would like to use the database to add your own notes as well and you have
     * **DATABASE_URL** is the route to your DB
 * Run **python3 connection_database/app.py**
 * If you want to use the json solution with your own data, you can use the **db_to_json** script in the **read_in_database** folder to export the data into one json file
+
+_The author of this repository was trying to avoid vibe-coding, but occasionally general ChatGPT and Claude Sonnet 4 was used to figure out the infrastructure of the app._
