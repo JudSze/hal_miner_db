@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{ enzyme_details.gene_name }} Details</title>
+</head>
+<body>
+    <h1>{{ enzyme_details.gene_name }} Details</h1>
+    <ul>
+        {% for key, value in gene_details.items() %}
+            <li><strong>{{ key }}:</strong> {{ value }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Back to list</a>
+</body>
+</html>
