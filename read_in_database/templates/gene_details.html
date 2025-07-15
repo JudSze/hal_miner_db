@@ -1,15 +1,131 @@
-<!doctype html>
-<html>
-<head>
-    <title>{{ enzyme_details.gene_name }} Details</title>
-</head>
-<body>
-    <h1>{{ enzyme_details.gene_name }} Details</h1>
-    <ul>
-        {% for key, value in gene_details.items() %}
-            <li><strong>{{ key }}:</strong> {{ value }}</li>
-        {% endfor %}
-    </ul>
-    <a href="{{ url_for('index') }}">Back to list</a>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}{{ gene_name }} Details - Halogenase Database{% endblock %}
+
+{% block scripts %}
+<script>
+    $(document).ready(function() {
+        // Initialize DataTables if the gene details table exists
+        if ($('#gene-details-table').length) {
+            $('#gene-details-table').DataTable({
+                responsive: true,
+                pageLength: 25,
+                order: [], // No default ordering
+                columnDefs: [
+                    { orderable: true, targets: '_all' }
+                ]
+            });
+        }
+    });
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>{{ gene_name }} Details</h1>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to List</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Gene Information</h5>
+            </div>
+            <div class="card-body">
+                {% if enzyme_details %}
+                    {% if enzyme_details is mapping %}
+                        <!-- Handle dictionary structure - display as key-value pairs -->
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for key, value in enzyme_details.items() %}
+                                    <tr>
+                                        <td><strong>{{ key.replace('_', ' ').title() }}</strong></td>
+                                        <td>{{ value }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    {% elif enzyme_details is iterable and enzyme_details is not string %}
+                        <!-- Handle list structure - display as data table -->
+                        {% if enzyme_details|length > 0 %}
+                            {% set first_item = enzyme_details[0] %}
+                            {% if first_item is mapping %}
+                                <!-- If list contains dictionaries, create a proper data table -->
+                                <div class="table-responsive">
+                                    <table id="gene-details-table" class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                {% for key in first_item.keys() %}
+                                                    <th>{{ key.replace('_', ' ').title() }}</th>
+                                                {% endfor %}
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for item in enzyme_details %}
+                                            <tr>
+                                                {% for key in first_item.keys() %}
+                                                    <td>{{ item.get(key, '') }}</td>
+                                                {% endfor %}
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            {% else %}
+                                <!-- If list contains simple values -->
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Value</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for item in enzyme_details %}
+                                            <tr>
+                                                <td>{{ loop.index }}</td>
+                                                <td>{{ item }}</td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            {% endif %}
+                        {% else %}
+                            <p class="text-muted">No data available.</p>
+                        {% endif %}
+                    {% else %}
+                        <!-- Handle simple value -->
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Information</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{ enzyme_details }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    {% endif %}
+                {% else %}
+                    <p class="text-muted">No detailed information available for this gene.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
