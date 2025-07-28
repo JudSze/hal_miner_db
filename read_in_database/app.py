@@ -24,10 +24,6 @@ def main_gene_details(gene_name):
     enzyme_detail = data.get(gene_key)
 
     if enzyme_detail:
-        # Debug print to see the structure
-        print(f"Type of enzyme_detail: {type(enzyme_detail)}")
-        print(f"Content: {enzyme_detail}")
-
         return render_template('gene_details.html', enzyme_details=enzyme_detail, gene_name=gene_name)
 
     return "Enzyme details not found", 404
