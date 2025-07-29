@@ -1,0 +1,4 @@
+hal_db
+.env
+test
+backup_*
