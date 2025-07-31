@@ -20,11 +20,16 @@ def main_gene_details(gene_name):
         return "Enzyme not found", 404
 
     # Get the detailed information for this gene
-    gene_key = f"gene_{gene_name}"
-    enzyme_detail = data.get(gene_key)
+    if f"gene_{gene_name}" in data.keys():
+        gene_key = f"gene_{gene_name}"
+        enzyme_detail = data.get(gene_key)
 
-    if enzyme_detail:
-        return render_template('gene_details.html', enzyme_details=enzyme_detail, gene_name=gene_name)
+    if f"summary_{gene_name}" in data.keys():
+        summary_key = f"summary_{gene_name}"
+        summary_detail = data.get(summary_key)
+
+        if enzyme_detail:
+            return render_template('gene_details.html', enzyme_details=[summary_detail, enzyme_detail], gene_name=gene_name)
 
     return "Enzyme details not found", 404
 

@@ -33,8 +33,8 @@
                 <h5 class="mb-0">Gene Information</h5>
             </div>
             <div class="card-body">
-                {% if enzyme_details %}
-                    {% if enzyme_details is mapping %}
+                {% if enzyme_details[1] %}
+                    {% if enzyme_details[1] is mapping %}
                         <!-- Handle dictionary structure - display as key-value pairs -->
                         <div class="table-responsive">
                             <table class="table table-striped">
@@ -45,7 +45,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {% for key, value in enzyme_details.items() %}
+                                    {% for key, value in enzyme_details[1].items() %}
                                     <tr>
                                         <td><strong>{{ key.replace('_', ' ').title() }}</strong></td>
                                         <td>{{ value }}</td>
@@ -54,10 +54,10 @@
                                 </tbody>
                             </table>
                         </div>
-                    {% elif enzyme_details is iterable and enzyme_details is not string %}
+                    {% elif enzyme_details[1] is iterable and enzyme_details[1] is not string %}
                         <!-- Handle list structure - display as data table -->
-                        {% if enzyme_details|length > 0 %}
-                            {% set first_item = enzyme_details[0] %}
+                        {% if enzyme_details[1]|length > 0 %}
+                            {% set first_item = enzyme_details[1][0] %}
                             {% if first_item is mapping %}
                                 <!-- If list contains dictionaries, create a proper data table -->
                                 <div class="table-responsive">
@@ -65,14 +65,14 @@
                                         <thead>
                                             <tr>
                                                 {% for key in first_item.keys() %}
-                                                    <th>{{ key.replace('_', ' ').title() }}</th>
+                                                    <th>{{ key.replace('_', ' ').title() if key not in ["created_at", "parent_entry_id", "id"] }}</th>
                                                 {% endfor %}
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            {% for item in enzyme_details %}
+                                            {% for item in enzyme_details[1] %}
                                             <tr>
-                                                {% for key in first_item.keys() %}
+                                                {% for key in first_item.keys() if key not in ["created_at", "parent_entry_id", "id"]  %}
                                                     <td>{{ item.get(key, '') }}</td>
                                                 {% endfor %}
                                             </tr>
@@ -91,7 +91,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            {% for item in enzyme_details %}
+                                            {% for item in enzyme_details[1] %}
                                             <tr>
                                                 <td>{{ loop.index }}</td>
                                                 <td>{{ item }}</td>
@@ -115,7 +115,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>{{ enzyme_details }}</td>
+                                        <td>{{ enzyme_details[1].items }}</td>
                                     </tr>
                                 </tbody>
                             </table>
