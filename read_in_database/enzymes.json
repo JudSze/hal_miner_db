@@ -4991,18 +4991,6 @@
             "parent_entry_id": 78
         }
     ],
-    "gene_McnD": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "McnD",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 45
-        }
-    ],
     "gene_MibH": [
         {
             "id": 1,
@@ -7740,18 +7728,6 @@
             "parent_entry_id": 64
         }
     ],
-    "gene_Mcl24": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "Mcl24",
-            "reference": null,
-            "created_at": "2025-05-14T15:17:28.35162",
-            "parent_entry_id": 61
-        }
-    ],
     "gene_Mcl40": [
         {
             "id": 1,
@@ -8005,7 +7981,6 @@
             "id": 1,
             "effect": "compared to NapH1;covalently binds the vanadate cofactor",
             "mutation": "His496",
-            "condition": "in vivo",
             "gene_name": "NapH4",
             "reference": "doi.org/10.1074/jbc.M611046200",
             "created_at": "2025-05-14T11:52:10.277212",
@@ -8015,7 +7990,6 @@
             "id": 2,
             "effect": "compared to NapH1",
             "mutation": "Lys353",
-            "condition": "in vivo",
             "gene_name": "NapH4",
             "reference": "doi.org/10.1074/jbc.M611046200",
             "created_at": "2025-05-20T14:06:48.818991",
@@ -8025,7 +7999,6 @@
             "id": 3,
             "effect": "compared to NapH1",
             "mutation": "Arg360",
-            "condition": "in vivo",
             "gene_name": "NapH4",
             "reference": "doi.org/10.1074/jbc.M611046200",
             "created_at": "2025-05-20T14:06:48.818991",
@@ -8035,7 +8008,6 @@
             "id": 4,
             "effect": "Ser402 in NapH1 and NapH3; Ser might be responsible for chloronium-induced terpene cyclization",
             "mutation": "F402",
-            "condition": "in vivo",
             "gene_name": "NapH4",
             "reference": "doi.org/10.1074/jbc.M611046200",
             "created_at": "2025-05-20T14:06:48.818991",
@@ -8045,7 +8017,6 @@
             "id": 5,
             "effect": "compared to NapH1",
             "mutation": "Gly403",
-            "condition": "in vivo",
             "gene_name": "NapH4",
             "reference": "doi.org/10.1074/jbc.M611046200",
             "created_at": "2025-05-20T14:06:48.818991",
@@ -8055,7 +8026,6 @@
             "id": 6,
             "effect": "compared to NapH1",
             "mutation": "Arg490",
-            "condition": "in vivo",
             "gene_name": "NapH4",
             "reference": "doi.org/10.1074/jbc.M611046200",
             "created_at": "2025-05-20T14:06:48.818991",
@@ -8948,7 +8918,10 @@
     "summary_flA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces cattleya NRRL 8057\",\n\"test\": \"incubation of 0.1 ml protein, 0.2 mM SAM and 5.0 mM KF in 50 mM Tris-HCl buffer (pH=7.8), followed by HPLC analysis\"}",
+            "summary": {
+                "test": "incubation of 0.1 ml protein, 0.2 mM SAM and 5.0 mM KF in 50 mM Tris-HCl buffer (pH=7.8), followed by HPLC analysis",
+                "producer": "Streptomyces cattleya NRRL 8057"
+            },
             "gene_name": "flA",
             "reference": "doi.org/10.1016/S0014-5793(03)00688-4",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9453,7 +9426,12 @@
     "summary_AdaV": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Actinomadura sp. ATCC 39365\",\n\"host\": \"E. coli BL21 (DE3)\",\n\"test\": \"HPLC analysis with knockout; incubation of AdeV with substrates, iron and alpha-ketoglutarate and tandem MS\"\n\"note\": \"chlorinates at the C2′ position of 2′-deoxyadenosine monophosphate and accepts 2′,3′-dideoxyadenosine-5′-monophosphate and 2′-deoxyinosine-5′-monophosphate as well\"}",
+            "summary": {
+                "host": "E. coli BL21 (DE3)",
+                "note": "chlorinates at the C2′ position of 2′-deoxyadenosine monophosphate and accepts 2′,3′-dideoxyadenosine-5′-monophosphate and 2′-deoxyinosine-5′-monophosphate as well",
+                "test": "HPLC analysis with knockout; incubation of AdeV with substrates, iron and alpha-ketoglutarate and tandem MS",
+                "producer": "Actinomadura sp. ATCC 39365"
+            },
             "gene_name": "AdaV",
             "reference": "doi/full/10.1002/anie.201914994",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -9463,7 +9441,12 @@
     "summary_AetA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Aetokthonos hydrillicola\",\n\"host\": \"Escherichia coli BL21(DE3)\",\n\"halide-source\": \"10 mM KBr\",\n\"notes\": \"incubated with NAD(P)H, FAD and SsuE\"}",
+            "summary": {
+                "host": "Escherichia coli BL21(DE3)",
+                "notes": "incubated with NAD(P)H, FAD and SsuE",
+                "producer": "Aetokthonos hydrillicola",
+                "halide-source": "10 mM KBr"
+            },
             "gene_name": "AetA",
             "reference": "doi/10.1021/jacs.1c12778",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9473,7 +9456,12 @@
     "summary_AetF": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Aetokthonos hydrillicola\",\n\"host\": \"Escherichia coli BL21(DE3)\",\n\"halide-source\": \"10 mM KBr\",\n\"notes\": \"single component, binds FAD confirmed by LC-MS, preference for NADPH over NADH\"}",
+            "summary": {
+                "host": "Escherichia coli BL21(DE3)",
+                "notes": "single component, binds FAD confirmed by LC-MS, preference for NADPH over NADH",
+                "producer": "Aetokthonos hydrillicola",
+                "halide-source": "10 mM KBr"
+            },
             "gene_name": "AetF",
             "reference": "doi/10.1021/jacs.1c12778",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9483,7 +9471,12 @@
     "summary_AoiQ": [
         {
             "id": 2,
-            "summary": "{\"producer\": \"Aspergillus oryzae\",\n\"host\": \"E. coli,\n\"test\": \"protein with Fre, FAD, NADH, O2 and LC-HRMS analysis\",\n\"halide-source\": \"CHCl3/MeOH\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "protein with Fre, FAD, NADH, O2 and LC-HRMS analysis",
+                "producer": "Aspergillus oryzae",
+                "halide-source": "CHCl3/MeOH"
+            },
             "gene_name": "AoiQ",
             "reference": "doi.org/10.1002/anie.201604516",
             "created_at": "2025-06-17T13:55:23.565215",
@@ -9491,7 +9484,13 @@
         },
         {
             "id": 1,
-            "summary": "{\"producer\": \"Aspergillus oryzae\",\n\"host\": \"Escherichia coli BL21(DE3)\",\n\"test\": \"coupled assay with DiaC\",\n\"halide-source\": \"25 mM NaCl\",\n\"notes\": \"10 mM NAD(P)H\"}",
+            "summary": {
+                "host": "Escherichia coli BL21(DE3)",
+                "test": "coupled assay with DiaC",
+                "notes": "10 mM NAD(P)H",
+                "producer": "Aspergillus oryzae",
+                "halide-source": "25 mM NaCl"
+            },
             "gene_name": "AoiQ",
             "reference": "doi/full/10.1021/jacs.1c02868",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9501,7 +9500,10 @@
     "summary_AviH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"viridochromogenes GW4-AM1\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "viridochromogenes GW4-AM1"
+            },
             "gene_name": "AviH",
             "reference": "cell.com/AJHG/fulltext/S1074-5521(01)00040-0",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9511,7 +9513,10 @@
     "summary_BesD": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces cattleya\",\n\"host\": \"\",\n\"test\": \"knockout; L-lysine incubated with purified BesD, 4 mM HCl, NaCl, 5 mM sodium ascorbate, 1mM (NH4)2Fe(SO4)2*6H2O in 100 mM MOPS buffer and MS and NMR analysis\"}",
+            "summary": {
+                "test": "knockout; L-lysine incubated with purified BesD, 4 mM HCl, NaCl, 5 mM sodium ascorbate, 1mM (NH4)2Fe(SO4)2*6H2O in 100 mM MOPS buffer and MS and NMR analysis",
+                "producer": "Streptomyces cattleya"
+            },
             "gene_name": "BesD",
             "reference": "doi.org/10.1038/s41586-019-1020-y",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9521,7 +9526,11 @@
     "summary_Bmp5": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Marinomonas mediterranea MMB-1 and Thioalkalivibrio thiocyanoxidans ARh 4\",\n\"test\": \"generates iodophenols in vivo, incubated with 4-HBA, KBr, NADPH and FAD\",\n\"note\": \"single component\"}",
+            "summary": {
+                "note": "single component",
+                "test": "generates iodophenols in vivo, incubated with 4-HBA, KBr, NADPH and FAD",
+                "producer": "Marinomonas mediterranea MMB-1 and Thioalkalivibrio thiocyanoxidans ARh 4"
+            },
             "gene_name": "Bmp5",
             "reference": "doi.org/10.1038/nchembio.1564",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9531,27 +9540,27 @@
     "summary_BorH": [
         {
             "id": 1,
-            "summary": "{\"host\": \"Escherichia coli\",\n\"flavin-reductase\": \"BorF\",\n\"halide-source\": \"NaCl\",\n\"notest\": \"supplemented with NADH\"}",
+            "summary": {
+                "host": "Escherichia coli",
+                "note": "supplemented with NADH",
+                "halide-source": "NaCl",
+                "flavin-reductase": "BorF"
+            },
             "gene_name": "BorH",
             "reference": "doi.org/10.1002/cbic.201900667",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 70
         }
     ],
-    "summary_BrtJ": [
-        {
-            "id": 1,
-            "summary": null,
-            "gene_name": "BrtJ",
-            "reference": null,
-            "created_at": "2025-05-16T09:36:52.629677",
-            "parent_entry_id": 86
-        }
-    ],
     "summary_BrvH": [
         {
             "id": 1,
-            "summary": "{\"host\": \"Escherichia coli pGro7 and BL21 (DE3)\",\n\"flavin-reductase\": \"plasmid pClBhis-PrnF\",\n\"test\": \"mutagenesis, crystallization and activity assay\",\n\"notes\": \"enzymes (250 μl in 1 mL) with 1 μM FAD, 100 μM NAD, 100 mM NaBr/NaCl, PrnF (2.5 U/mL) and ADH (2 U/mL)\"}",
+            "summary": {
+                "host": "Escherichia coli pGro7 and BL21 (DE3)",
+                "test": "mutagenesis, crystallization and activity assay",
+                "notes": "enzymes (250 μl in 1 mL) with 1 μM FAD, 100 μM NAD, 100 mM NaBr/NaCl, PrnF (2.5 U/mL) and ADH (2 U/mL)",
+                "flavin-reductase": "plasmid pClBhis-PrnF"
+            },
             "gene_name": "BrvH",
             "reference": "doi.org/10.1371/journal.pone.0196797",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9561,7 +9570,11 @@
     "summary_ChlA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Dictyostelium strains Ax2 and Ax4\",\n\"halide-source\": \"NaCl\",\n\"test\": \"150 mM NaCl, pH 7.5 with 67 μM ChlA, 4.5 μM SsuE, 10 mM NADH, 100 μM FAD\"}",
+            "summary": {
+                "test": "150 mM NaCl, pH 7.5 with 67 μM ChlA, 4.5 μM SsuE, 10 mM NADH, 100 μM FAD",
+                "producer": "Dictyostelium strains Ax2 and Ax4",
+                "halide-source": "NaCl"
+            },
             "gene_name": "ChlA",
             "reference": "doi: 10.1073/pnas.1001681107",
             "created_at": "2025-06-17T15:12:01.517764",
@@ -9581,7 +9594,10 @@
     "summary_Clz5": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. CNH-287\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Streptomyces sp. CNH-287"
+            },
             "gene_name": "Clz5",
             "reference": "doi/full/10.1021/ja409520v",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9591,7 +9607,11 @@
     "summary_CmaB": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Pseudomonas syringae pv. tomato DC3000\",\n\"host\": \"E. coli, anaerobic conditions\",\n\"test\": \"incubation desalted in a Bio-Gel P6-DG column (Bio-Rad) equilibrated in 20 mM HEPES pH 7.5 to remove dithiothreitol and excess iron, 2 mM alpha-ketoglutarate in the initial incubation and the final storage buffer\"}",
+            "summary": {
+                "host": "E. coli, anaerobic conditions",
+                "test": "incubation desalted in a Bio-Gel P6-DG column (Bio-Rad) equilibrated in 20 mM HEPES pH 7.5 to remove dithiothreitol and excess iron, 2 mM alpha-ketoglutarate in the initial incubation and the final storage buffer",
+                "producer": "Pseudomonas syringae pv. tomato DC3000"
+            },
             "gene_name": "CmaB",
             "reference": "doi.org/10.1038/nature03797",
             "created_at": "2025-05-20T16:57:27.0795",
@@ -9601,7 +9621,11 @@
     "summary_CmdE": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Chondromyces crocatus Cm c5\",\n\"halide-source\": \"5-fluoro-tryptophan (addition to cultures, fluorochondramide A and C), NaCl\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Chondromyces crocatus Cm c5",
+                "halide-source": "5-fluoro-tryptophan (addition to cultures, fluorochondramide A and C), NaCl"
+            },
             "gene_name": "CmdE",
             "reference": "http://doi.org/10.1016/j.chembiol.2006.06.002",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9611,7 +9635,10 @@
     "summary_CmlS": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces venezuelae ISP5230\",\n\"test\": \"gene function disruption\"}",
+            "summary": {
+                "test": "gene function disruption",
+                "producer": "Streptomyces venezuelae ISP5230"
+            },
             "gene_name": "CmlS",
             "reference": "doi.org/10.1099/mic.0.26319-0",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9619,7 +9646,10 @@
         },
         {
             "id": 2,
-            "summary": "{\"producer\": \"Streptomyces venezuelae\",\n\"test\": \"crystallography and mutagenesis\"}",
+            "summary": {
+                "test": "crystallography and mutagenesis",
+                "producer": "Streptomyces venezuelae"
+            },
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T15:59:00.782714",
@@ -9629,37 +9659,26 @@
     "summary_CndH": [
         {
             "id": 2,
-            "summary": "{\"study organism\": \"Chondromyces crocatus Cm c5, B:E4 and H:19 cosmids\",\n\"halide source\": \"NaCl\",\n\"notes\": \"CndH gene was inactivated by insertional mutagenesis using plasmid pSR12\"}",
+            "summary": {
+                "host": "Chondromyces crocatus Cm c5, B:E4 and H:19 cosmids",
+                "notes": "CndH gene was inactivated by insertional mutagenesis using plasmid pSR12",
+                "halide-source": "NaCl"
+            },
             "gene_name": "CndH",
             "reference": "DOI 10.1016/j.chembiol.2008.11.005",
             "created_at": "2025-06-04T11:35:45.444377",
             "parent_entry_id": 134
         }
     ],
-    "summary_ColD": [
-        {
-            "id": 1,
-            "summary": null,
-            "gene_name": "ColD",
-            "reference": null,
-            "created_at": "2025-05-16T09:36:52.629677",
-            "parent_entry_id": 89
-        }
-    ],
-    "summary_ColE": [
-        {
-            "id": 1,
-            "summary": null,
-            "gene_name": "ColE",
-            "reference": null,
-            "created_at": "2025-05-16T09:36:52.629677",
-            "parent_entry_id": 90
-        }
-    ],
     "summary_CtcP": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces aureofaciens\",\n\"host\": \"Escherichia coli BL21(DE3)/pLysE/pJTU4308\",\n\"flavin-reductase\": \"CtcQ\",\n'\"halide-source\": \"500 mM NaCl in 20 mM Tris–HCl (pH 7.9)\"}",
+            "summary": {
+                "host": "Escherichia coli BL21(DE3)/pLysE/pJTU4308",
+                "producer": "Streptomyces aureofaciens",
+                "halide-source": "500 mM NaCl in 20 mM Tris–HCl (pH 7.9)",
+                "flavin-reductase": "CtcQ"
+            },
             "gene_name": "CtcP",
             "reference": "doi.org/10.1016/j.ymben.2013.06.003, doi.org/10.1042/BSR20253185",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9669,37 +9688,39 @@
     "summary_CtoA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Sorangium cellulosum So ce1525\",\n\"test\": \"gene disruption by ctoB knockout\"\n\"notes\": \"unsuccessful E. coli recombinant production\"}",
+            "summary": {
+                "note": "unsuccessful E. coli recombinant production",
+                "test": "gene disruption by ctoB knockout",
+                "producer": "Sorangium cellulosum So ce1525"
+            },
             "gene_name": "CtoA",
             "reference": "doi/10.1021/acschembio.5b00523",
             "created_at": "2025-06-04T11:37:04.132764",
             "parent_entry_id": 136
         }
     ],
-    "summary_Cts4": [
-        {
-            "id": 1,
-            "summary": null,
-            "gene_name": "Cts4",
-            "reference": null,
-            "created_at": "2025-07-01T14:37:40.186302",
-            "parent_entry_id": 129
-        }
-    ],
     "summary_CurA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Lyngbya majuscula\",\n\"host\": \"E. coli\",\n\"test\": \"FTICR-MS and (IRMPD)-based PPant ejection assay\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "FTICR-MS and (IRMPD)-based PPant ejection assay",
+                "producer": "Lyngbya majuscula"
+            },
             "gene_name": "CurA",
-            "reference": "doi/epdf/10.1073/pnas.1006738107",
-            "created_at": "2025-05-20T16:54:19.690759",
+            "reference": "doi.org/10.1073/pnas.1006738107",
+            "created_at": "2025-08-01T12:18:19.365211",
             "parent_entry_id": 117
         }
     ],
     "summary_CylC": [
         {
             "id": 1,
-            "summary": "In the study, they couldn't obtain CylC alone, they ended up using N-terminally His6-tagged CylC when coexpressed with CylA and NHis6-CylB in E. coli BAP1. They also found that CylB and CylC probably form a complex.",
+            "summary": {
+                "host": "E. coli",
+                "note": "In the study, they couldn't obtain CylC alone, they ended up using N-terminally His6-tagged CylC when coexpressed with CylA and NHis6-CylB in E. coli BAP1. They also found that CylB and CylC probably form a complex.",
+                "producer": "Cylindrospermum licheniforme ATCC 29412"
+            },
             "gene_name": "CylC",
             "reference": "doi.org/10.1038/nchembio.2421",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9709,9 +9730,12 @@
     "summary_FasV": [
         {
             "id": 1,
-            "summary": "{\"host\": \"E. coli (DE3)\",\n\"halide-source\": \"NaCl\"}",
+            "summary": {
+                "host": "E. coli (DE3)",
+                "halide-source": "NaCl"
+            },
             "gene_name": "FasV",
-            "reference": "doi/full/10.1002/anie.202418843",
+            "reference": "doi.org/10.1002/anie.202418843",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 92
         }
@@ -9719,9 +9743,13 @@
     "summary_HalB": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Actinoplanes sp. ATCC 33002\",\n\"host\": \"E. coli\",\n\"test\": \"2.5 mM\nNADH, 12.5 lM FAD, 6.25 mM MgCl2, 0.2 mM 2-\n(3,5-dibromo-2-methoxyphenyl)pyrrole or 2-(3,5-di\u0002bromophenyl)pyrrole\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "2.5 mM\nNADH, 12.5 lM FAD, 6.25 mM MgCl2, 0.2 mM 2-\n(3,5-dibromo-2-methoxyphenyl)pyrrole or 2-(3,5-di\u0002bromophenyl)pyrrole",
+                "producer": "Actinoplanes sp. ATCC 33002"
+            },
             "gene_name": "HalB",
-            "reference": "doi:10.1016/j.femsle.2004.06.053",
+            "reference": "doi.org/10.1111/j.1574-6968.2004.tb09718.x",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 25
         }
@@ -9729,7 +9757,12 @@
     "summary_HctB": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Lyngbya majuscula\",\n\"host\": \"E. coli\",\n\"test\": \"O2 consumption monitoring in air-saturated enzyme preparation\",\n\"halide-source\": \"NaCl\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "O2 consumption monitoring in air-saturated enzyme preparation",
+                "producer": "Lyngbya majuscula",
+                "halide-source": "NaCl"
+            },
             "gene_name": "HctB",
             "reference": "doi.org/10.1002/cbic.201300345",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9739,7 +9772,11 @@
     "summary_HrmQ": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces griseoflavus W-384\",\n\"host\": \"mutant Streptomyces roseochromogenes var. oscitans DS12.976\",\n\"test\": \"HPLC and LC-MS\"}",
+            "summary": {
+                "host": "mutant Streptomyces roseochromogenes var. oscitans DS12.976",
+                "test": "HPLC and LC-MS",
+                "producer": "Streptomyces griseoflavus W-384"
+            },
             "gene_name": "HrmQ",
             "reference": "doi.org/10.1002/cbic.200800186",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9749,7 +9786,11 @@
     "summary_JamD": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Moorena producens\",\n\"host\": \"E. coli\",\n\"test\": \"FAD, potassium bromide, NADPH, followed by LC-MS\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "FAD, potassium bromide, NADPH, followed by LC-MS",
+                "producer": "Moorena producens"
+            },
             "gene_name": "JamD",
             "reference": "doi.org/10.1021/jacs.3c05750",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9769,7 +9810,11 @@
     "summary_KrmI": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Theonella swinhoei WA\",\n\"host\": \"E. coli\",\n\"test\": \"in vitro halogenation assay\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "in vitro halogenation assay",
+                "producer": "Theonella swinhoei WA"
+            },
             "gene_name": "KrmI",
             "reference": "doi.org/10.1021/acschembio.6b01115",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9779,7 +9824,11 @@
     "summary_KthP": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Kutzneria sp. 744\",\n\"host\": \"E. coli BL21(DE3)\",\n\"test\": \"25 mM Hepes, 50 mM NaCl, 1 mM MgCl2, 1 mM aminoacyl-CoA, and 200 μM T domain (pH 7.0), 2 mM alpha-ketoglutarate, anaerobically reconstituted KthP\"}",
+            "summary": {
+                "host": "E. coli BL21(DE3)",
+                "test": "25 mM Hepes, 50 mM NaCl, 1 mM MgCl2, 1 mM aminoacyl-CoA, and 200 μM T domain (pH 7.0), 2 mM alpha-ketoglutarate, anaerobically reconstituted KthP",
+                "producer": "Kutzneria sp. 744"
+            },
             "gene_name": "KthP",
             "reference": "doi.org/10.1021/bi200656k",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -9789,7 +9838,11 @@
     "summary_KtzD": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Kutzneria sp.\",\n\"host\": \"E. coli\",\n\"test\": \"HPLC-MS analysis\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "HPLC-MS analysis",
+                "producer": "Kutzneria sp."
+            },
             "gene_name": "KtzD",
             "reference": "doi.org/10.1021/ja8064667",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -9799,9 +9852,14 @@
     "summary_KtzQ": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Kutzneria sp. 744\",\n\"host\": \"E.coli BL21 (DE3)\",\n\"test\": \"HPLC analysis\",\n\"halide-source\": \"NaCl\"}",
+            "summary": {
+                "host": "E.coli BL21 (DE3)",
+                "test": "HPLC analysis",
+                "producer": "Kutzneria sp. 744",
+                "halide-source": "NaCl"
+            },
             "gene_name": "KtzQ",
-            "reference": "doi: 10.1021/ja806467a",
+            "reference": "doi.org/10.1021/ja806467a",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 66
         }
@@ -9809,7 +9867,10 @@
     "summary_KtzR": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Kutzneria sp. 744\",\n\"host\": \"Pseudeomonas putida KT2440\",\n\"test\": \"HPLC analysis\"}",
+            "summary": {
+                "host": "Pseudeomonas putida KT2440\",\n\"test\": \"HPLC analysis",
+                "producer": "Kutzneria sp. 744"
+            },
             "gene_name": "KtzR",
             "reference": "doi.org/10.1021/ja806467a",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9829,7 +9890,11 @@
     "summary_LvcH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. CNZ-289\",\n\"host\": \"E. coli\",\n\"test\": \"MCD, 10 µg/mL of the protein, 800 µL solution of 50 mM buffer (MES-NaOH, pH 6.0 or HEPES-KOH, pH 8.0), 200 mM KCl, 50 µM \nMCD, and 100 µM Na3VO4\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "MCD, 10 µg/mL of the protein, 800 µL solution of 50 mM buffer (MES-NaOH, pH 6.0 or HEPES-KOH, pH 8.0), 200 mM KCl, 50 µM \nMCD, and 100 µM Na3VO4",
+                "producer": "Streptomyces sp. CNZ-289"
+            },
             "gene_name": "LvcH",
             "reference": "doi.org/10.1021/acs.orglett.4c01869",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9839,27 +9904,24 @@
     "summary_MalA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Malbranchea graminicola\",\n\"test\": \"1H NMR analysis\"}",
+            "summary": {
+                "test": "1H NMR analysis",
+                "producer": "Malbranchea graminicola"
+            },
             "gene_name": "MalA",
             "reference": "doi.org/10.1021/jacs.7b06773",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 78
         }
     ],
-    "summary_McnD": [
-        {
-            "id": 1,
-            "summary": null,
-            "gene_name": "McnD",
-            "reference": null,
-            "created_at": "2025-05-16T09:36:52.629677",
-            "parent_entry_id": 45
-        }
-    ],
     "summary_MibH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Microbispora sp. 107891\",\n\"host\": \"with the chaperones groES/EL\",\n\"test\": \"LC/ESI-Q/TOF MS analysis of halogenation reactions and total ion chromatograph (TIC) of the halogenation reaction\"}",
+            "summary": {
+                "host": "with the chaperones groES/EL",
+                "test": "LC/ESI-Q/TOF MS analysis of halogenation reactions and total ion chromatograph (TIC) of the halogenation reaction",
+                "producer": "Microbispora sp. 107891"
+            },
             "gene_name": "MibH",
             "reference": "doi.org/10.1021/acschembio.6b01031",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9869,9 +9931,12 @@
     "summary_Nat1": [
         {
             "id": 1,
-            "summary": null,
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Streptomyces sp. CS"
+            },
             "gene_name": "Nat1",
-            "reference": null,
+            "reference": "doi.org/10.1039/C1MB05036B",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 34
         }
@@ -9889,9 +9954,13 @@
     "summary_NocO": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Nodularia sp. LEGE 06071\",\n\"host\": \"E. coli ArcticExpress (DE3)\",\n\"note\": \"Has improved expression characteristics compared to CylC. They screened 12 phylogenetically diverse CylC homologues and this was the one choosen. Just like in AurF, mutating the metal-binding active site residues causes difficulties with expression. Using E.coli ArcticExpress (DE3), a BL21 derivative solved the issue. In this system Cpn60 and Cpn10 from Oleispira antarctica are constitutively expressed. NocM and NocL copurify with Cpn60 and Cpn10. NocO catalyzes highly chemo-and regioselective chlorination of the terminal carbon of an ACP-tethered dodecanoyl thioester. ,,Mössbauer spectrum of as-isolated NocO exhibits primarily quadrupole doublet features indicative of antiferromagnetically coupled diiron(III) clusters.\"}",
+            "summary": {
+                "host": "E. coli ArcticExpress (DE3)",
+                "note": "Has improved expression characteristics compared to CylC. They screened 12 phylogenetically diverse CylC homologues and this was the one choosen. Just like in AurF, mutating the metal-binding active site residues causes difficulties with expression. Using E.coli ArcticExpress (DE3), a BL21 derivative solved the issue. In this system Cpn60 and Cpn10 from Oleispira antarctica are constitutively expressed. NocM and NocL copurify with Cpn60 and Cpn10. NocO catalyzes highly chemo-and regioselective chlorination of the terminal carbon of an ACP-tethered dodecanoyl thioester. ,,Mössbauer spectrum of as-isolated NocO exhibits primarily quadrupole doublet features indicative of antiferromagnetically coupled diiron(III) clusters.",
+                "producer": "Nodularia sp. LEGE 06071"
+            },
             "gene_name": "NocO",
-            "reference": "doi/full/10.1021/acs.biochem.4c00720",
+            "reference": "doi.org/10.1021/acs.biochem.4c00720",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 87
         }
@@ -9899,7 +9968,11 @@
     "summary_PhmJ": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Leptolyngbya sp. ISBN3-Nov-94-8\",\n\"host\": \"E. coli BL21(DE3)\",\n\"test\": \"50 µL reaction composed of 5 µM PhmJ, 2 µM PtdH, \n5 mM sodium phosphite, 1 mM NADP+\n, 1 mM jamaicamide B (7, stock in MeOH), 10 mM KBr, 50 \nmM Tris-HCl pH 8 buffer, and 100 µM FAD\"}",
+            "summary": {
+                "host": "E. coli BL21(DE3)",
+                "test": "50 µL reaction composed of 5 µM PhmJ, 2 µM PtdH, \n5 mM sodium phosphite, 1 mM NADP+\n, 1 mM jamaicamide B (7, stock in MeOH), 10 mM KBr, 50 \nmM Tris-HCl pH 8 buffer, and 100 µM FAD",
+                "producer": "Leptolyngbya sp. ISBN3-Nov-94-8"
+            },
             "gene_name": "PhmJ",
             "reference": "doi.org/10.1021/jacs.3c05750",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9909,7 +9982,11 @@
     "summary_PltA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \" Pseudomonas fluorescens Pf-5\",\n\"host\": \"Escherichia coli BL21 (DE3)\",\n\"test\": \"Crystallization\"}",
+            "summary": {
+                "host": "Escherichia coli BL21 (DE3)",
+                "test": "Crystallization",
+                "producer": " Pseudomonas fluorescens Pf-5"
+            },
             "gene_name": "PltA",
             "reference": "doi.org/10.1016/j.jsb.2015.09.013",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9919,7 +9996,10 @@
     "summary_PltM": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"\",\n\"host\": \"E. coli BL21(DE3)\",\n\"test\": \"Crystallization , mutagenesis and in vitro assays (200 mM of either NaF (Assay 1a), NaCl (Assay 1b), NaBr (Assay 1c), or NaI (Assay 1d), 200 μL reaction with 300 mM NaF, substrate (0.5 mM), FAD (0.2 mM), NADPH (5 mM), PltM (5.5 μM), and SsuE (5.0 μM), 30 mM sodium phosphate pH 7.4)\"}",
+            "summary": {
+                "host": "E. coli BL21(DE3)",
+                "test": "Crystallization , mutagenesis and in vitro assays (200 mM of either NaF (Assay 1a), NaCl (Assay 1b), NaBr (Assay 1c), or NaI (Assay 1d), 200 μL reaction with 300 mM NaF, substrate (0.5 mM), FAD (0.2 mM), NADPH (5 mM), PltM (5.5 μM), and SsuE (5.0 μM), 30 mM sodium phosphate pH 7.4)"
+            },
             "gene_name": "PltM",
             "reference": "doi.org/10.1038/s41467-019-09215-9",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9929,9 +10009,13 @@
     "summary_PolK": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Lachnum palmae NBRC 106495\",\n\"host\": \"Aspergillus oryzae\",\n\"test\": \"HPLC analysis\"}",
+            "summary": {
+                "host": "Aspergillus oryzae",
+                "test": "HPLC analysis",
+                "producer": "Lachnum palmae NBRC 106495"
+            },
             "gene_name": "PloK",
-            "reference": "doi/full/10.1002/cbic.201900404",
+            "reference": "doi.org/10.1002/cbic.201900404",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 58
         }
@@ -9939,7 +10023,10 @@
     "summary_PrnA": [
         {
             "id": 1,
-            "summary": "{\"host\": \"Pseudomonas fluorescens BL915\",\n\"test\": \"Mutagenesis\"}",
+            "summary": {
+                "host": "Pseudomonas fluorescens BL915",
+                "test": "Mutagenesis"
+            },
             "gene_name": "PrnA",
             "reference": "doi.org/10.1002/anie.201007896",
             "created_at": "2025-07-08T09:17:56.396444",
@@ -9947,9 +10034,13 @@
         },
         {
             "id": 2,
-            "summary": "{\"producer\": \"Pseudomonas fluorescens BL915\",\n\"host\": \"Pseudomonas fluorescens BL915\",\n\"test\": \"Mutagenesis\"}",
+            "summary": {
+                "host": "Pseudomonas fluorescens BL915",
+                "test": "Mutagenesis",
+                "producer": "Pseudomonas fluorescens BL915"
+            },
             "gene_name": "PrnA",
-            "reference": "doi: 10.1002/anie.200802466",
+            "reference": "doi.org/10.1002/anie.200802466",
             "created_at": "2025-07-29T09:20:10.926513",
             "parent_entry_id": 138
         }
@@ -9957,7 +10048,11 @@
     "summary_PrnC": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Pseudomonas fluorescens\",\n\"host\": \"E. coli ArcticExpress (DE3)\",\n\"test\": \"NADPH (50 μM and 100 µM), sodium chloride (10 mM and 100 mM), and FAD (10 μM and 500 µM), pH (7 and 8) and SsuE flavin-reductase\"}",
+            "summary": {
+                "host": "E. coli ArcticExpress (DE3)",
+                "test": "NADPH (50 μM and 100 µM), sodium chloride (10 mM and 100 mM), and FAD (10 μM and 500 µM), pH (7 and 8) and SsuE flavin-reductase",
+                "producer": "Pseudomonas fluorescens"
+            },
             "gene_name": "PrnC",
             "reference": "doi.org/10.3389/fctls.2023.1231765",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -9967,9 +10062,13 @@
     "summary_PyrH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces rugosporus\",\n\"host\": \"Escherichia coli BL21 (DE3)\",\n\"test\": \"for chloride: 50 mM sodium phosphate, pH 8.3, 1 mM FAD, 20% (v/v) glycerol (>99.5%, Thermo Fisher Scientific), and 300 mM NaCl, whereas the final buffer was 60 mM potassium phosphate, pH 8.3, 1% (v/v) glycerol, and 20 mM NaCl; for bromide: buffer contained 60 mM sodium phosphate, pH 8.3, 1 mM FAD, 20% (v/v) glycerol, and 300 mM NaBr (99.99%, Thermo Fisher Scientific) for reconsitution and 20 mM NaBr in the final buffer with 60 mM potassium phosphate (pH=8.3)\"}",
+            "summary": {
+                "host": "Escherichia coli BL21 (DE3)",
+                "test": "for chloride: 50 mM sodium phosphate, pH 8.3, 1 mM FAD, 20% (v/v) glycerol (>99.5%, Thermo Fisher Scientific), and 300 mM NaCl, whereas the final buffer was 60 mM potassium phosphate, pH 8.3, 1% (v/v) glycerol, and 20 mM NaCl; for bromide: buffer contained 60 mM sodium phosphate, pH 8.3, 1 mM FAD, 20% (v/v) glycerol, and 300 mM NaBr (99.99%, Thermo Fisher Scientific) for reconsitution and 20 mM NaBr in the final buffer with 60 mM potassium phosphate (pH=8.3)",
+                "producer": "Streptomyces rugosporus"
+            },
             "gene_name": "PyrH",
-            "reference": "DOI: 10.1016/j.jbc.2024.107210",
+            "reference": "doi.org/10.1016/j.jbc.2024.107210",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 74
         }
@@ -9977,7 +10076,10 @@
     "summary_RebH": [
         {
             "id": 1,
-            "summary": "{\"host\": \"E. coli strain BL21(DE3)\",\n\"test\": \"303 K in 100 μL total volume 20 mM potassium phosphate buffer (pH 8.0) containing 0.6 mM L-Trp, 0.2 mg/mL RebH, 50 μM FAD and 100 mM halide (NaCl or NaBr) and an in situ flavin reduction system\"}",
+            "summary": {
+                "host": "E. coli strain BL21(DE3)",
+                "test": "303 K in 100 μL total volume 20 mM potassium phosphate buffer (pH 8.0) containing 0.6 mM L-Trp, 0.2 mg/mL RebH, 50 μM FAD and 100 mM halide (NaCl or NaBr) and an in situ flavin reduction system"
+            },
             "gene_name": "RebH",
             "reference": "doi.org/10.1002/prot.21627",
             "created_at": "2025-07-08T09:00:01.792095",
@@ -9985,7 +10087,10 @@
         },
         {
             "id": 2,
-            "summary": "{\"host\": \"E. coli\",\n\"test\": \"mutagenesis\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "mutagenesis"
+            },
             "gene_name": "RebH",
             "reference": "doi.org/10.1002/cbic.202100210",
             "created_at": "2025-07-29T10:17:43.17878",
@@ -9995,7 +10100,11 @@
     "summary_SalL": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Salinospora tropica CNB-440\",\n\"host\": \"E. coli BL21(DE3)\",\n\"test\": \"1-300 nM SalL with 0.5–500 μM SAM and 10–500 mM KX (X = F, Cl, Br, I) or (ii) 0.5–100 mM L-methionine and 0.3–100 μM 5′-XDA (X = F, Cl, Br, I) in 50 mM phosphate buffer (pH 7.9) at 37 °C\"}",
+            "summary": {
+                "host": "E. coli BL21(DE3)",
+                "test": "1-300 nM SalL with 0.5–500 μM SAM and 10–500 mM KX (X = F, Cl, Br, I) or (ii) 0.5–100 mM L-methionine and 0.3–100 μM 5′-XDA (X = F, Cl, Br, I) in 50 mM phosphate buffer (pH 7.9) at 37 °C",
+                "producer": "Salinospora tropica CNB-440"
+            },
             "gene_name": "SalL",
             "reference": "doi.org/10.1038/nchembio.2007.56",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10025,7 +10134,11 @@
     "summary_SpH2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Sphingomonas sp\",\n\"host\": \"E. coli\",\n\"test\": \"RP-HPLC\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "RP-HPLC",
+                "producer": "Sphingomonas sp"
+            },
             "gene_name": "SpH2",
             "reference": "doi.org/10.3390/catal11040485",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10035,7 +10148,10 @@
     "summary_SpmH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. SCSIO 03032\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Streptomyces sp. SCSIO 03032"
+            },
             "gene_name": "SpmH",
             "reference": "doi.org/10.1039/C8OB02775G",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10045,9 +10161,12 @@
     "summary_SttH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces toxytricini\",\n\"test\": \"enzyme (2.5 µM) was incubated at 30 °C (or 45 °C) with shaking \nfor 30 minutes with Fre (1 µM), FAD (1 µM), NADH (2.5 mM), MgCl2 (10 mM) and substrate (0.5\nmM) in a total volume of 300 µL in 10 mM potassium phosphate buffer, pH 7.4, followed by HPLC\"}",
+            "summary": {
+                "test": "enzyme (2.5 µM) was incubated at 30 °C (or 45 °C) with shaking for 30 minutes with Fre (1 µM), FAD (1 µM), NADH (2.5 mM), MgCl2 (10 mM) and substrate (0.5mM) in a total volume of 300 µL in 10 mM potassium phosphate buffer, pH 7.4, followed by HPLC",
+                "producer": "Streptomyces toxytricini"
+            },
             "gene_name": "SttH",
-            "reference": "DOI: 10.1039/c6ob01861k",
+            "reference": "doi.org/10.1039/C6OB01861K",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 75
         }
@@ -10065,7 +10184,10 @@
     "summary_TiaM": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Dactylosporangium aurantiacum subsp. hamdenensis NRRL 18085\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Dactylosporangium aurantiacum subsp. hamdenensis NRRL 18085"
+            },
             "gene_name": "TiaM",
             "reference": "doi.org/10.1021/acs.jnatprod.7b00990",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10075,17 +10197,26 @@
     "summary_VhaA": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Amycolatopsis orientalis DSM40040\",\n\"host\": \"Escherichia coli BL21(DE3)pLysS\",\n\"reductase\": \"SsuE from E. coli added to aqueous buffer with free FAD and NADPH\",\n\"halide-source\": \"NaCl\",\n\"notest\": \"375 and 450 nm peak in UV-Vis spectrum, characteristic to flavoproteins; extended dialysis (Tris-HCl buffer, pH 7.5 did not lead to loss of yellow color)\"} ",
+            "summary": {
+                "host": "Escherichia coli BL21(DE3)pLysS",
+                "note": "375 and 450 nm peak in UV-Vis spectrum, characteristic to flavoproteins; extended dialysis (Tris-HCl buffer, pH 7.5 did not lead to loss of yellow color)",
+                "producer": "Amycolatopsis orientalis DSM40040",
+                "reductase": "SsuE from E. coli added to aqueous buffer with free FAD and NADPH",
+                "halide-source": "NaCl"
+            },
             "gene_name": "VhaA",
-            "reference": "DOI: 10.1039/c4ob00474d",
+            "reference": "doi.org/10.1039/C4OB00474D",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 43
         },
         {
             "id": 2,
-            "summary": "{\"producer\": \"Amycolatopsis orientalis NRRL 2452, solid and liquid cultures\",\n\"halide source\": \"HCl and NaCl\"}",
+            "summary": {
+                "producer": "Amycolatopsis orientalis NRRL 2452, solid and liquid cultures",
+                "halide source": "HCl and NaCl"
+            },
             "gene_name": "VhaA",
-            "reference": "DOI: 10.1039/D0CC07421G",
+            "reference": "doi.org/10.1039/D0CC07421G",
             "created_at": "2025-06-16T11:43:38.062384",
             "parent_entry_id": 43
         }
@@ -10093,7 +10224,10 @@
     "summary_XanH": [
         {
             "id": 1,
-            "summary": "{\"host\": \"Escherichia coli BL21(DE3)\",\n\"test\": \"in vitro assay with 80 μM XanH and 20 μM FAD\"}",
+            "summary": {
+                "host": "Escherichia coli BL21(DE3)",
+                "test": "in vitro assay with 80 μM XanH and 20 μM FAD"
+            },
             "gene_name": "XanH",
             "reference": "doi.org/10.1128/AEM.01225-20",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10113,7 +10247,10 @@
     "summary_bmp2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Pseudoalteromonas spp.\",\n\"test\": \"gene deletion\"}",
+            "summary": {
+                "test": "gene deletion",
+                "producer": "Pseudoalteromonas spp."
+            },
             "gene_name": "bmp2",
             "reference": "doi.org/10.1038/nchembio.1564",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10123,9 +10260,13 @@
     "summary_flA1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp MA37\",\n\"host\": \"E. coli\",\n\"test\": \"kinetic assay with analytical HPLC, 0.5 mg/mL protein incubated with SAM and 200 mM KF in 20 mM sodium phosphate buffer (pH=7.8)\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "kinetic assay with analytical HPLC, 0.5 mg/mL protein incubated with SAM and 200 mM KF in 20 mM sodium phosphate buffer (pH=7.8)",
+                "producer": "Streptomyces sp MA37"
+            },
             "gene_name": "flA1",
-            "reference": "doi/full/10.1002/cbic.201300732",
+            "reference": "doi.org/10.1002/cbic.201300732",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 2
         }
@@ -10133,9 +10274,12 @@
     "summary_flA2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Nocardia brasiliensis HUJEG-1 (ATCC 700358)\",\n\"test\": \"kinetics assay, 0.5 mg/mL of the protein, SAM, 200 mM KF, 20 mM sodium phosphate buffer (pH=7.8)\"}",
+            "summary": {
+                "test": "kinetics assay, 0.5 mg/mL of the protein, SAM, 200 mM KF, 20 mM sodium phosphate buffer (pH=7.8)",
+                "producer": "Nocardia brasiliensis HUJEG-1 (ATCC 700358)"
+            },
             "gene_name": "flA2",
-            "reference": "doi/full/10.1002/cbic.201300732",
+            "reference": "doi.org/10.1002/cbic.201300732",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 3
         }
@@ -10143,9 +10287,12 @@
     "summary_flA3": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Actinoplanes sp. N902-109\",\n\"test\": \"kinetics assay, 0.5 mg/mL of protein, incubated with SAM and 200 mM KF in 20 mM sodium phosphate buffer (pH=7.8)\"}",
+            "summary": {
+                "test": "kinetics assay, 0.5 mg/mL of protein, incubated with SAM and 200 mM KF in 20 mM sodium phosphate buffer (pH=7.8)",
+                "producer": "Actinoplanes sp. N902-109"
+            },
             "gene_name": "flA3",
-            "reference": "doi/full/10.1002/cbic.201300732",
+            "reference": "doi.org/10.1002/cbic.201300732",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 4
         }
@@ -10153,9 +10300,13 @@
     "summary_flA4": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces xinghaiensis NRRL B24674\",\n\"host\": \"E. coli\",\n\"note\": \"8.20+/-0.96 mM KF. Adenosine and 5'-FDA enhance protein stability and the wild-type enzyme is more stable than other mutants. Tris-HCl buffer (pH 7.0) is better for maintaining stability. Optimal temperature is 40 C. pH is crucial for activity, the enzyme seems to prefer acidic environment as low as 4. Addition of EDTA makes the enzyme less active. Cu and Zn inhibit activity. Excellent stability over 4 days in 25C in a 50 mM Tris-HCl buffer (pH 7.0)\"}",
+            "summary": {
+                "host": "E. coli",
+                "note": "8.20+/-0.96 mM KF. Adenosine and 5'-FDA enhance protein stability and the wild-type enzyme is more stable than other mutants. Tris-HCl buffer (pH 7.0) is better for maintaining stability. Optimal temperature is 40 C. pH is crucial for activity, the enzyme seems to prefer acidic environment as low as 4. Addition of EDTA makes the enzyme less active. Cu and Zn inhibit activity. Excellent stability over 4 days in 25C in a 50 mM Tris-HCl buffer (pH 7.0)",
+                "producer": "Streptomyces xinghaiensis NRRL B24674"
+            },
             "gene_name": "flA4",
-            "reference": "DOI: 10.1039/c6ra00100a",
+            "reference": "doi.org/10.1039/C6RA00100A",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 1
         }
@@ -10357,7 +10508,12 @@
     "summary_AmbO5": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Fischerella ambigua UTEX 1903\",\n\"host\": \"E. coli\",\n\"test\": \"analytical scale assay with 12-epi-fischerindole U substrate\",\n\"note\": \"can be purified in atmospheric environment, but needs to be stripped from the metal ions by dialysis against EDTA\"}",
+            "summary": {
+                "host": "E. coli",
+                "note": "can be purified in atmospheric environment, but needs to be stripped from the metal ions by dialysis against EDTA",
+                "test": "analytical scale assay with 12-epi-fischerindole U substrate",
+                "producer": "Fischerella ambigua UTEX 1903"
+            },
             "gene_name": "AmbO5",
             "reference": "doi.org/10.1016/bs.mie.2018.02.015",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10367,7 +10523,10 @@
     "summary_Asm12": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Actinosynnema pretiosum ATCC 31565\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Actinosynnema pretiosum ATCC 31565"
+            },
             "gene_name": "Asm12",
             "reference": "doi.org/10.1021/ja038166y",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10377,7 +10536,12 @@
     "summary_BarB1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Lyngbya majuscula\",\n\"host\": \"E. coli\",\n\"test\": \"incubation with O2, alpha-ketoglutarate, Cl and aminoacyl-S-BarA derivatives\",\n\"halide-source\": \"Cl\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "incubation with O2, alpha-ketoglutarate, Cl and aminoacyl-S-BarA derivatives",
+                "producer": "Lyngbya majuscula",
+                "halide-source": "Cl"
+            },
             "gene_name": "BarB1",
             "reference": "doi.org/10.1021/ja060151n",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10387,7 +10551,12 @@
     "summary_BarB2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Lyngbya majuscula\",\n\"host\": \"E. coli\",\n\"test\": \"incubation with O2, alpha-ketoglutarate, Cl and aminoacyl-S-BarA derivatives\",\n\"halide-source\": \"Cl\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "incubation with O2, alpha-ketoglutarate, Cl and aminoacyl-S-BarA derivatives",
+                "producer": "Lyngbya majuscula",
+                "halide-source": "Cl"
+            },
             "gene_name": "BarB2",
             "reference": "doi.org/10.1021/ja060151n",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10397,7 +10566,11 @@
     "summary_CVBPO": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Corallina pilulifera\",\n\"'study\": \"X-ray crystallography\",\n\"note\": \"Ca,Mg and strontium increases stability, vanadate increases thermostability\"}",
+            "summary": {
+                "note": "Ca,Mg and strontium increases stability, vanadate increases thermostability",
+                "test": "X-ray crystallography",
+                "producer": "Corallina pilulifera"
+            },
             "gene_name": "CVBPO",
             "reference": "doi.org/10.1007/s00775-005-0639-3",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10405,7 +10578,11 @@
         },
         {
             "id": 2,
-            "summary": "{\"producer\": \"Corallina pilulifera\",\n\"test\": \"MCD assay and I2 formation for iodination testing\",\n\"halide-source\": \"potassium fluoride, chloride, bromide, potassium iodide\"}",
+            "summary": {
+                "test": "MCD assay and I2 formation for iodination testing",
+                "producer": "Corallina pilulifera",
+                "halide-source": "potassium fluoride, chloride, bromide, potassium iodide"
+            },
             "gene_name": "CVBPO",
             "reference": "doi.org/10.1016/S0021-9258(19)89233-5",
             "created_at": "2025-07-23T16:09:59.423095",
@@ -10425,7 +10602,11 @@
     "summary_CtNTH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Catellatospora tritici\",\n\"host\": \" E. coli BL21 (DE3)\",\n\"test\": \"30 microM protein, 0.5 mM (NH)4Fe(SO4), 2.5 mM alpha-ketoglutaric acid sodium salt, 1 mM ascorbic acid, 10 mM NaBr/NaI/NaN3/NaNO2/NaOCN/NaSCN and 1 mM dGMP in HEPES buffer (pH 7.5)\"}",
+            "summary": {
+                "host": "E. coli BL21 (DE3)",
+                "test": "30 microM protein, 0.5 mM (NH)4Fe(SO4), 2.5 mM alpha-ketoglutaric acid sodium salt, 1 mM ascorbic acid, 10 mM NaBr/NaI/NaN3/NaNO2/NaOCN/NaSCN and 1 mM dGMP in HEPES buffer (pH 7.5)",
+                "producer": "Catellatospora tritici"
+            },
             "gene_name": "CtNTH",
             "reference": "doi.org/10.1038/s41467-024-49147-7",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10435,7 +10616,11 @@
     "summary_CytC3": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp.\",\n\"host\": \"E. coli\",\n\"test\": \"Crystallography\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "Crystallography",
+                "producer": "Streptomyces sp."
+            },
             "gene_name": "CytC3",
             "reference": "doi.org/10.1021/ja8097355",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10445,7 +10630,11 @@
     "summary_DnHal": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Dirinaria sp.\",\n\"host\": \"Pichia pastoris\",\n\"test\": \"analysis of reaction products with RT-TLC and in vitro assay followed by LC-MS (Zeng and Zhan with modifications, reaction mixture consisting of 100 μM of FAD, 10 mM of NADH, 10 mM of KCl, 1.0 mM of substrates, 32 μM of prnF, 32 μM of DnHal in 100 μL of 0.1 M phosphate buffer (pH 7.0))\"}",
+            "summary": {
+                "host": "Pichia pastoris",
+                "test": "analysis of reaction products with RT-TLC and in vitro assay followed by LC-MS (Zeng and Zhan with modifications, reaction mixture consisting of 100 μM of FAD, 10 mM of NADH, 10 mM of KCl, 1.0 mM of substrates, 32 μM of prnF, 32 μM of DnHal in 100 μL of 0.1 M phosphate buffer (pH 7.0))",
+                "producer": "Dirinaria sp."
+            },
             "gene_name": "DnHal",
             "reference": "doi.org/10.1007/s12010-022-04304-w",
             "created_at": "2025-07-04T12:19:21.054278",
@@ -10455,7 +10644,11 @@
     "summary_End30": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Actinoplanes sp. ATCC33076\",\n\"host\": \"E. coli\",\n\"test\": \"HPLC and LC-MS\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "HPLC and LC-MS",
+                "producer": "Actinoplanes sp. ATCC33076"
+            },
             "gene_name": "End30",
             "reference": "doi.org/10.1007/s00253-015-7014-2",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10465,7 +10658,13 @@
     "summary_MarH1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. CNQ-509\",\n\"host\": \"E. coli\",\n\"test\": \"MCD assay\",\n\"halide-source\": \"200 mM KCl or KBr\",\n\"note\": \"recombinant enzyme might not have bound vanadium in the active site\"}",
+            "summary": {
+                "host": "E. coli",
+                "note": "recombinant enzyme might not have bound vanadium in the active site",
+                "test": "MCD assay",
+                "producer": "Streptomyces sp. CNQ-509",
+                "halide-source": "200 mM KCl or KBr"
+            },
             "gene_name": "MarH1",
             "reference": "doi-org.proxy.findit.cvt.dk/10.1002/ange.201804351",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10475,29 +10674,29 @@
     "summary_MarH3": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. CNQ-509\",\n\"host\": \"E. coli\",\n\"test\": \"MCD assay\",\n\"halide-source\": \"200 mM KCl or KBr\",\n\"note\": \"recombinant enzyme might not have bound vanadium in the active site\"}",
+            "summary": {
+                "host": "E. coli",
+                "note": "recombinant enzyme might not have bound vanadium in the active site",
+                "test": "MCD assay",
+                "producer": "Streptomyces sp. CNQ-509",
+                "halide-source": "200 mM KCl or KBr"
+            },
             "gene_name": "MarH3",
             "reference": "doi-org.proxy.findit.cvt.dk/10.1002/ange.201804351",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 64
         }
     ],
-    "summary_Mcl24": [
-        {
-            "id": 1,
-            "summary": null,
-            "gene_name": "Mcl24",
-            "reference": null,
-            "created_at": "2025-05-16T09:36:52.629677",
-            "parent_entry_id": 61
-        }
-    ],
     "summary_Mcl40": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. strain CNH-189\",\n\"host\": \"Streptomyces coelicolor M1154\",\n\"test\": \"HPLC-MS\"}",
+            "summary": {
+                "host": "Streptomyces coelicolor M1154",
+                "test": "HPLC-MS",
+                "producer": "Streptomyces sp. strain CNH-189"
+            },
             "gene_name": "Mcl40",
-            "reference": "doi/full/10.1021/ja305665f",
+            "reference": "doi.org/10.1021/ja305665f",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 62
         }
@@ -10505,7 +10704,10 @@
     "summary_Mpy16": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. CNQ-418\",\n\"test\": \"gene deletion\"}",
+            "summary": {
+                "test": "gene deletion",
+                "producer": "Streptomyces sp. CNQ-418"
+            },
             "gene_name": "Mpy16",
             "reference": "doi.org/10.1021/ja305670f",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10515,7 +10717,11 @@
     "summary_NapH1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. CNQ-525\",\n\"host\": \"E. coli\",\n\"test\": \"MCD assay\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "MCD assay",
+                "producer": "Streptomyces sp. CNQ-525"
+            },
             "gene_name": "NapH1",
             "reference": "doi.org/10.1021/ja201088k",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10525,27 +10731,23 @@
     "summary_NapH2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces sp. CS\",\n\"test\": \"gene deletion\"}",
+            "summary": {
+                "test": "gene deletion",
+                "producer": "Streptomyces sp. CS"
+            },
             "gene_name": "NapH2",
             "reference": "doi.org/10.1039/C1MB05036B",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 39
         }
     ],
-    "summary_NapH4": [
-        {
-            "id": 1,
-            "summary": null,
-            "gene_name": "NapH4",
-            "reference": "doi.org/10.1074/jbc.M611046200",
-            "created_at": "2025-05-16T09:36:52.629677",
-            "parent_entry_id": 9
-        }
-    ],
     "summary_Ram20": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Actinoplanes sp. ATCC33076\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Actinoplanes sp. ATCC33076"
+            },
             "gene_name": "Ram20",
             "reference": "doi.org/10.1007/s00253-015-7014-2",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10555,7 +10757,11 @@
     "summary_SaDAH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Menispermaceae\",\n\"host\": \"E. coli BL21 (DE3)\",\n\"test\": \"25 mM Tris buffer, pH = 8.0, enzyme (20 µM), (−)-dechloroacutumine (100 µM), 2OG (500 µM), NaCl (1 mM), sodium ascorbate (5 mM), and (NH4)2Fe(So4)2 (2 mM) and LC-HRAM-MS\"}",
+            "summary": {
+                "host": "E. coli BL21 (DE3)",
+                "test": "25 mM Tris buffer, pH = 8.0, enzyme (20 µM), (−)-dechloroacutumine (100 µM), 2OG (500 µM), NaCl (1 mM), sodium ascorbate (5 mM), and (NH4)2Fe(So4)2 (2 mM) and LC-HRAM-MS",
+                "producer": "Menispermaceae"
+            },
             "gene_name": "SaDAH",
             "reference": "doi.org/10.1038/s41467-020-15777-w",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10565,7 +10771,12 @@
     "summary_SgcC3": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces globisporus\",\n\"host\": \"E. coli BL21 (DE3)\",\n\"test\": \"in vitro assay\",\n\"halide-source\": \"NaCl\"}",
+            "summary": {
+                "host": "E. coli BL21 (DE3)",
+                "test": "in vitro assay",
+                "producer": "Streptomyces globisporus",
+                "halide-source": "NaCl"
+            },
             "gene_name": "SgcC3",
             "reference": "doi.org/10.1021/ja072311g",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10585,7 +10796,10 @@
     "summary_SyrB2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Pseudomonas syringae pv. syringae B301D\",\n\"test\": \"Crystallography\"}",
+            "summary": {
+                "test": "Crystallography",
+                "producer": "Pseudomonas syringae pv. syringae B301D"
+            },
             "gene_name": "SyrB2",
             "reference": "doi.org/10.1038/nature04544",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10595,7 +10809,11 @@
     "summary_Tar14": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Saccharomonospora sp. CNQ-490\",\n\"host\": \"Streptomyces coelicolor CH999\",\n\"test\": \"gene deletion and in vitro assay\"}",
+            "summary": {
+                "host": "Streptomyces coelicolor CH999",
+                "test": "gene deletion and in vitro assay",
+                "producer": "Saccharomonospora sp. CNQ-490"
+            },
             "gene_name": "Tar14",
             "reference": "doi.org/10.1002/anie.201901571",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10605,9 +10823,13 @@
     "summary_Tcp21": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Amycolatopsis teichomyceticus\",\n\"host\": \"E. coli\",\n\"test\": \"in vitro assay\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "in vitro assay",
+                "producer": "Amycolatopsis teichomyceticus"
+            },
             "gene_name": "Tcp21",
-            "reference": "DOI: 10.1039/C7SC00460E",
+            "reference": "doi.org/10.1039/C7SC00460E",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 44
         }
@@ -10615,7 +10837,11 @@
     "summary_VaNTH": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Virgisporangium aurantiacum\",\n\"host\": \"E. coli BL21 (DE3)\",\n\"test\": \"30 microM protein, 0.5 mM (NH)4Fe(SO4), 2.5 mM alpha-ketoglutaric acid sodium salt, 1 mM ascorbic acid, 10 mM NaBr/NaI/NaN3/NaNO2/NaOCN/NaSCN and 1 mM dGMP in HEPES buffer (pH 7.5)\"}",
+            "summary": {
+                "host": "E. coli BL21 (DE3)",
+                "test": "30 microM protein, 0.5 mM (NH)4Fe(SO4), 2.5 mM alpha-ketoglutaric acid sodium salt, 1 mM ascorbic acid, 10 mM NaBr/NaI/NaN3/NaNO2/NaOCN/NaSCN and 1 mM dGMP in HEPES buffer (pH 7.5)",
+                "producer": "Virgisporangium aurantiacum"
+            },
             "gene_name": "VaNTH",
             "reference": "doi.org/10.1038/s41467-024-49147-7",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10625,7 +10851,10 @@
     "summary_VirX1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"cyanophage\",\n\"host\": \"\",\n\"test\": \"X-ray crystallography and LC-HRMS or UPLC analysis for substrate scope\"}",
+            "summary": {
+                "test": "X-ray crystallography and LC-HRMS or UPLC analysis for substrate scope",
+                "producer": "cyanophage"
+            },
             "gene_name": "VirX1",
             "reference": "doi.org/10.1038/s41557-019-0349-z",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10635,7 +10864,12 @@
     "summary_WelO5": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Hapalosiphon welwitschii UTEX B 1830\",\n\"host\": \"E. coli\",\n\"test\": \"analytical scale assay with 12-epi-fischerindole U substrate\",\n\"note\": \"can be purified in atmospheric environment, but needs to be stripped from the metal ions by dialysis against EDTA\"}",
+            "summary": {
+                "host": "E. coli",
+                "note": "can be purified in atmospheric environment, but needs to be stripped from the metal ions by dialysis against EDTA",
+                "test": "analytical scale assay with 12-epi-fischerindole U substrate",
+                "producer": "Hapalosiphon welwitschii UTEX B 1830"
+            },
             "gene_name": "WelO5",
             "reference": "doi.org/10.1016/bs.mie.2018.02.015",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10645,7 +10879,10 @@
     "summary_dAMP1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Actinokineospora bangkok NBRC 108932\",\n\"test\": \"fermentation and LC-HRMS\"}",
+            "summary": {
+                "test": "fermentation and LC-HRMS",
+                "producer": "Actinokineospora bangkok NBRC 108932"
+            },
             "gene_name": "dAMP1",
             "reference": "doi.org/10.1021/acscatal.2c04608",
             "created_at": "2025-05-20T16:57:27.0795",
@@ -10655,7 +10892,10 @@
     "summary_dAMP2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces varsoviensis CGMCC 4.1431\",\n\"test\": \"fermentation and LC-HRMS\"}",
+            "summary": {
+                "test": "fermentation and LC-HRMS",
+                "producer": "Streptomyces varsoviensis CGMCC 4.1431"
+            },
             "gene_name": "dAMP2",
             "reference": "doi.org/10.1021/acscatal.2c04608",
             "created_at": "2025-05-20T16:57:27.0795",
@@ -10665,7 +10905,10 @@
     "summary_dAMP3": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Microbispora triticiradicis CGMCC 4.7399\",\n\"test\": \"fermentation and LC-HRMS\"}",
+            "summary": {
+                "test": "fermentation and LC-HRMS",
+                "producer": "Microbispora triticiradicis CGMCC 4.7399"
+            },
             "gene_name": "dAMP3",
             "reference": "doi.org/10.1021/acscatal.2c04608",
             "created_at": "2025-05-20T16:57:27.0795",
@@ -10675,7 +10918,12 @@
     "summary_CiVCPO": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Curvularia inaequalis\",\n\"host\": \"Saccharomyces cerevisiae (BJ1991)\",\n\"test\": \"MCD assay\",\n\"halide-source\": \",,appropriate concentrations of the substrates chloride or bromide˝}",
+            "summary": {
+                "host": "Saccharomyces cerevisiae (BJ1991)",
+                "test": "MCD assay",
+                "producer": "Curvularia inaequalis",
+                "halide-source": "˝appropriate concentrations of the substrates chloride or bromide˝"
+            },
             "gene_name": "CiVCPO",
             "reference": "jbc.org/article/S0021-9258(19)55497-7/fulltext",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10685,7 +10933,10 @@
     "summary_CloHal": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces roseochromogenes var. oscitans DS 12.976\",\n\"test\": \"gene inactivation\"}",
+            "summary": {
+                "test": "gene inactivation",
+                "producer": "Streptomyces roseochromogenes var. oscitans DS 12.976"
+            },
             "gene_name": "CloHal",
             "reference": "doi.org/10.1016/S1074-5521(03)00051-6",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10695,7 +10946,12 @@
     "summary_CoVBPO": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Corallina officinalis\",\n\"host\": \"E. coli\",\n\"test\": \"MCD assay\",\n\"halide-source\": \"0.5-50 mM potassium bromide, 0.25-100 mM potassium iodide\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "MCD assay",
+                "producer": "Corallina officinalis",
+                "halide-source": "0.5-50 mM potassium bromide, 0.25-100 mM potassium iodide"
+            },
             "gene_name": "CoVBPO",
             "reference": "doi.org/10.1016/S0162-0134(02)00400-2",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10705,7 +10961,10 @@
     "summary_LdVIPO": [
         {
             "id": 1,
-            "summary": "{\"host\": \"Laminaria digitata\",\n\"test\": \"LC-MS/MS analysis\"}",
+            "summary": {
+                "host": "Laminaria digitata",
+                "test": "LC-MS/MS analysis"
+            },
             "gene_name": "LdVIPO",
             "reference": "doi.org/10.1007/s00775-005-0626-8",
             "created_at": "2025-05-19T12:04:14.725404",
@@ -10715,7 +10974,11 @@
     "summary_PkHalD": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Pseudomonas kilonensis\",\n\"host\": \"E. coli BL21 Star (DE3)\",\n\"test\": \"ATP (2.5 mM), MgCl2 (5 mM), phosphoenolpyruvate (1 mM), NADH (0.3 mM), lactate dehydrogenase (10 U ml−1), pyruvate kinase (10 U ml−1), succinyl-CoA synthetase (3.2 U ml−1), coenzyme A (1 mM), sodium αKG (1 mM), (NH4)2Fe(SO4)2·6H2O (0.2 mM), sodium chloride (10 mM) and sodium ascorbate (2 mM) in 100 mM HEPES buffer (pH 7.5), 5 µM PkHalD\"}",
+            "summary": {
+                "host": "E. coli BL21 Star (DE3)",
+                "test": "ATP (2.5 mM), MgCl2 (5 mM), phosphoenolpyruvate (1 mM), NADH (0.3 mM), lactate dehydrogenase (10 U ml−1), pyruvate kinase (10 U ml−1), succinyl-CoA synthetase (3.2 U ml−1), coenzyme A (1 mM), sodium αKG (1 mM), (NH4)2Fe(SO4)2·6H2O (0.2 mM), sodium chloride (10 mM) and sodium ascorbate (2 mM) in 100 mM HEPES buffer (pH 7.5), 5 µM PkHalD",
+                "producer": "Pseudomonas kilonensis"
+            },
             "gene_name": "PkHalD",
             "reference": "doi.org/10.1038/s41589-019-0355-x",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10725,7 +10988,11 @@
     "summary_SwHalB": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Streptomyces wuyuanensis\",\n\"host\": \"E. coli\",\n\"test\": \"l-lysine (1 mM), sodium αKG (5 mM), sodium ascorbate (5 mM) and (NH4)2Fe(SO4)2·6H2O (1 mM) in 50 mM sodium acetate buffer (pH 7, adjusted with acetic acid), 100 mM sodium bromide (halogenases were desalted into sodium acetate (25 mM, pH 7)), 30 μM WsHalB and LC-MS\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "l-lysine (1 mM), sodium αKG (5 mM), sodium ascorbate (5 mM) and (NH4)2Fe(SO4)2·6H2O (1 mM) in 50 mM sodium acetate buffer (pH 7, adjusted with acetic acid), 100 mM sodium bromide (halogenases were desalted into sodium acetate (25 mM, pH 7)), 30 μM WsHalB and LC-MS",
+                "producer": "Streptomyces wuyuanensis"
+            },
             "gene_name": "SwHalB",
             "reference": "doi.org/10.1038/s41589-019-0355-x",
             "created_at": "2025-05-20T16:53:31.822888",
@@ -10817,7 +11084,12 @@
     "summary_AmVBPO1": [
         {
             "id": 2,
-            "summary": "{\"producer\": \"Acaryochloris marina MBIC 11017\",\n\"host\": \"E. coli (BL21)\",\n\"test\": \"UV MCD assay\",\n\"halide-source\": \"200 mM KCl or KBr\",\n}",
+            "summary": {
+                "host": "E. coli (BL21)",
+                "test": "UV MCD assay",
+                "producer": "Acaryochloris marina MBIC 11017",
+                "halide-source": "200 mM KCl or KBr"
+            },
             "gene_name": "AmVBPO1",
             "reference": "doi.org/10.5281/zenodo.14544279",
             "created_at": "2025-05-19T11:23:31.383932",
@@ -10825,7 +11097,11 @@
         },
         {
             "id": 1,
-            "summary": "{\"producer\": \"Acaryochloris marina\",\n\"host\": \"E. coli\",\n\"test\": \"X-ray crystallography\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "X-ray crystallography",
+                "producer": "Acaryochloris marina"
+            },
             "gene_name": "AmVBPO1",
             "reference": "doi.org/10.1002/cbic.201600417",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10835,7 +11111,10 @@
     "summary_AmVBPO2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Acaryochloris marina\",\n\"test\": \"Crystallography, MCD\"}",
+            "summary": {
+                "test": "Crystallography, MCD",
+                "producer": "Acaryochloris marina"
+            },
             "gene_name": "AmVBPO2",
             "reference": "doi.org/10.1002/cbic.201600417",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10845,7 +11124,11 @@
     "summary_AnVBPO1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Ascophyllum nodosum\",\n\"host\": \"unspecified\",\n\"test\": \"MCD assay\",\n\"halide-source\": \"0.1 M Br\"}",
+            "summary": {
+                "test": "MCD assay",
+                "producer": "Ascophyllum nodosum",
+                "halide-source": "0.1 M Br"
+            },
             "gene_name": "AnVBPO1",
             "reference": "doi/abs/10.1021/ja004176c",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10855,7 +11138,11 @@
     "summary_AnVBPO2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Ascophyllum nodosum\",\n\"test\": \"MCD assay\",\n\"halide-source\": \"1 mM-400 mM KBr\"}",
+            "summary": {
+                "test": "MCD assay",
+                "producer": "Ascophyllum nodosum",
+                "halide-source": "1 mM-400 mM KBr"
+            },
             "gene_name": "AnVBPO2",
             "reference": "https://doi.org/10.1016/j.bioorg.2012.05.003",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10865,7 +11152,10 @@
     "summary_LdVBPO1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Laminaria digitata\",\n\"test\": \"non-denaturing gels, soaked with 100 mM potassium phosphate buffer, pH 7.4, 0.1 mM0-dianisidine, 0.45 mM H2O2, 10 mM potassium chloride/bromide/iodide\"}",
+            "summary": {
+                "test": "non-denaturing gels, soaked with 100 mM potassium phosphate buffer, pH 7.4, 0.1 mM0-dianisidine, 0.45 mM H2O2, 10 mM potassium chloride/bromide/iodide",
+                "producer": "Laminaria digitata"
+            },
             "gene_name": "LdVBPO1",
             "reference": "doi.org/10.1074/jbc.M300247200",
             "created_at": "2025-05-19T12:53:21.834696",
@@ -10875,9 +11165,11 @@
     "summary_LdVBPO2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Laminaria digitata\",\n\"test\": \"\"}",
+            "summary": {
+                "producer": "Laminaria digitata"
+            },
             "gene_name": "LdVBPO2",
-            "reference": "jbc.org/article/S0021-9258(20)86157-2",
+            "reference": "doi.org/10.1074/jbc.M300247200",
             "created_at": "2025-05-19T12:53:21.834696",
             "parent_entry_id": 96
         }
@@ -10885,7 +11177,13 @@
     "summary_RhoVCPO": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Rhodopirellula baltica\" \n\"host\": \"E. coli BL21 (DE3)\",\n\"medium\": \"with kanamycin\",\n\"test\": \"MCD assay\"\n\"halide-source\": \"200 microM KCl or KBr\"}",
+            "summary": {
+                "host": "E. coli BL21 (DE3)",
+                "note": "medium with kanamycin",
+                "test": "MCD assay",
+                "producer": "Rhodopirellula baltica",
+                "halide-source": "200 microM KCl or KBr"
+            },
             "gene_name": "RhoVCPO",
             "reference": "this paper",
             "created_at": "2025-07-02T12:39:36.977556",
@@ -10905,7 +11203,10 @@
     "summary_SyVHPO2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Synechococcus sp. CC9311\",\n\"test\": \"MCD assay, 100 mM KBr in 100 mM MES buffer (pH 7.0), 60 microM MCD; Thymol blue\"}",
+            "summary": {
+                "test": "MCD assay, 100 mM KBr in 100 mM MES buffer (pH 7.0), 60 microM MCD; Thymol blue",
+                "producer": "Synechococcus sp. CC9311"
+            },
             "gene_name": "SyVHPO2",
             "reference": "doi.org/10.1111/j.1529-8817.2011.01007.x",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10915,7 +11216,12 @@
     "summary_Zg_VIPO1": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Zobellia galactanivorans\",\n\"host\": \"E. coli\"\n\"test\": \"mutagenesis, Thyblue\",\n\"note\": \",,'TB (100 μM), KI (80 μM to 2 mM) or KBr (1.5 to 10 mM), and H2O2 (0.42 mM and 0.1 mM for iodo- and bromoperoxidase assays, respectively)'\"}",
+            "summary": {
+                "host": "E. coli",
+                "note": ",,'TB (100 μM), KI (80 μM to 2 mM) or KBr (1.5 to 10 mM), and H2O2 (0.42 mM and 0.1 mM for iodo- and bromoperoxidase assays, respectively)'",
+                "test": "mutagenesis, Thyblue",
+                "producer": "Zobellia galactanivorans"
+            },
             "gene_name": "Zg-VIPO1",
             "reference": "doi.org/10.1128/AEM.02430-14",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10925,7 +11231,11 @@
     "summary_Zg_VIPO2": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Zobellia galactanivorans\",\n\"host\": \"E. coli\",\n\"test\": \"Thyblue\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "Thyblue",
+                "producer": "Zobellia galactanivorans"
+            },
             "gene_name": "Zg-VIPO2",
             "reference": "doi.org/10.1128/AEM.02430-14",
             "created_at": "2025-05-16T09:36:52.629677",
@@ -10935,7 +11245,11 @@
     "summary_FlA_PtaU1_": [
         {
             "id": 1,
-            "summary": "{\"producer\": \"Methanosaeta sp. PtaU1.Bin055\",\n\"host\": \"E. coli\",\n\"test\": \"steady-state kinetics assays with 1μM of the protein, 1.5–800 μM SAM and 75 mM KF\"}",
+            "summary": {
+                "host": "E. coli",
+                "test": "steady-state kinetics assays with 1μM of the protein, 1.5–800 μM SAM and 75 mM KF",
+                "producer": "Methanosaeta sp. PtaU1.Bin055"
+            },
             "gene_name": "FlA(PtaU1)",
             "reference": "doi.org/10.1021/acscatal.2c01184",
             "created_at": "2025-05-16T09:36:52.629677",
