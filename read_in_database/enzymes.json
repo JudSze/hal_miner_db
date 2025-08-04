@@ -8645,7 +8645,8 @@
             "id": 1,
             "summary": {
                 "test": "incubation of 0.1 ml protein, 0.2 mM SAM and 5.0 mM KF in 50 mM Tris-HCl buffer (pH=7.8), followed by HPLC analysis",
-                "producer": "Streptomyces cattleya NRRL 8057"
+                "producer": "Streptomyces cattleya NRRL 8057",
+                "phmm-model": "SAM_fluorinase.hmm"
             },
             "gene_name": "flA",
             "reference": "doi.org/10.1016/S0014-5793(03)00688-4",
@@ -9130,7 +9131,8 @@
                 "host": "E. coli BL21 (DE3)",
                 "note": "chlorinates at the C2′ position of 2′-deoxyadenosine monophosphate and accepts 2′,3′-dideoxyadenosine-5′-monophosphate and 2′-deoxyinosine-5′-monophosphate as well",
                 "test": "HPLC analysis with knockout; incubation of AdeV with substrates, iron and alpha-ketoglutarate and tandem MS",
-                "producer": "Actinomadura sp. ATCC 39365"
+                "producer": "Actinomadura sp. ATCC 39365",
+                "phmm-model": "NHFe_nucleotide.hmm"
             },
             "gene_name": "AdaV",
             "reference": "doi/full/10.1002/anie.201914994",
@@ -9160,6 +9162,7 @@
                 "host": "Escherichia coli BL21(DE3)",
                 "notes": "single component, binds FAD confirmed by LC-MS, preference for NADPH over NADH",
                 "producer": "Aetokthonos hydrillicola",
+                "phmm-model": "FDH_unconventaional.hmm",
                 "halide-source": "10 mM KBr"
             },
             "gene_name": "AetF",
@@ -9215,7 +9218,8 @@
             "id": 1,
             "summary": {
                 "test": "knockout; L-lysine incubated with purified BesD, 4 mM HCl, NaCl, 5 mM sodium ascorbate, 1mM (NH4)2Fe(SO4)2*6H2O in 100 mM MOPS buffer and MS and NMR analysis",
-                "producer": "Streptomyces cattleya"
+                "producer": "Streptomyces cattleya",
+                "phmm-model": "NHFe_small_amino_acids.hmm"
             },
             "gene_name": "BesD",
             "reference": "doi.org/10.1038/s41586-019-1020-y",
@@ -9243,6 +9247,7 @@
             "summary": {
                 "host": "Escherichia coli",
                 "note": "supplemented with NADH",
+                "phmm-model": "FDH_all_conventional.hmm",
                 "halide-source": "NaCl",
                 "flavin-reductase": "BorF"
             },
@@ -9259,6 +9264,7 @@
                 "host": "Escherichia coli pGro7 and BL21 (DE3)",
                 "test": "mutagenesis, crystallization and activity assay",
                 "notes": "enzymes (250 μl in 1 mL) with 1 μM FAD, 100 μM NAD, 100 mM NaBr/NaCl, PrnF (2.5 U/mL) and ADH (2 U/mL)",
+                "phmm-model": "FDH_conventional.hmm",
                 "flavin-reductase": "plasmid pClBhis-PrnF"
             },
             "gene_name": "BrvH",
@@ -9377,6 +9383,7 @@
             "summary": {
                 "host": "Escherichia coli BL21(DE3)/pLysE/pJTU4308",
                 "producer": "Streptomyces aureofaciens",
+                "phmm-model": "FDH_conventional.hmm",
                 "halide-source": "500 mM NaCl in 20 mM Tris–HCl (pH 7.9)",
                 "flavin-reductase": "CtcQ"
             },
@@ -9406,7 +9413,8 @@
             "summary": {
                 "host": "E. coli",
                 "test": "FTICR-MS and (IRMPD)-based PPant ejection assay",
-                "producer": "Lyngbya majuscula"
+                "producer": "Lyngbya majuscula",
+                "phmm-model": "NHFe_variant_B.hmm"
             },
             "gene_name": "CurA",
             "reference": "doi.org/10.1073/pnas.1006738107",
@@ -9420,7 +9428,8 @@
             "summary": {
                 "host": "E. coli",
                 "note": "In the study, they couldn't obtain CylC alone, they ended up using N-terminally His6-tagged CylC when coexpressed with CylA and NHis6-CylB in E. coli BAP1. They also found that CylB and CylC probably form a complex.",
-                "producer": "Cylindrospermum licheniforme ATCC 29412"
+                "producer": "Cylindrospermum licheniforme ATCC 29412",
+                "phmm-model": "dimetal-carboxylate.hmm"
             },
             "gene_name": "CylC",
             "reference": "doi.org/10.1038/nchembio.2421",
@@ -9433,6 +9442,7 @@
             "id": 1,
             "summary": {
                 "host": "E. coli (DE3)",
+                "phmm-model": "FDH_conventional.hmm",
                 "halide-source": "NaCl"
             },
             "gene_name": "FasV",
@@ -9462,6 +9472,7 @@
                 "host": "E. coli",
                 "test": "O2 consumption monitoring in air-saturated enzyme preparation",
                 "producer": "Lyngbya majuscula",
+                "phmm-model": "NHFe_variant_B.hmm",
                 "halide-source": "NaCl"
             },
             "gene_name": "HctB",
@@ -9607,7 +9618,8 @@
             "id": 1,
             "summary": {
                 "test": "1H NMR analysis",
-                "producer": "Malbranchea graminicola"
+                "producer": "Malbranchea graminicola",
+                "phmm-model": "FDH_conventional.hmm"
             },
             "gene_name": "MalA",
             "reference": "doi.org/10.1021/jacs.7b06773",
@@ -9621,7 +9633,8 @@
             "summary": {
                 "host": "with the chaperones groES/EL",
                 "test": "LC/ESI-Q/TOF MS analysis of halogenation reactions and total ion chromatograph (TIC) of the halogenation reaction",
-                "producer": "Microbispora sp. 107891"
+                "producer": "Microbispora sp. 107891",
+                "phmm-model": "FDH_trp_5.hmm"
             },
             "gene_name": "MibH",
             "reference": "doi.org/10.1021/acschembio.6b01031",
@@ -9658,7 +9671,8 @@
             "summary": {
                 "host": "E. coli ArcticExpress (DE3)",
                 "note": "Has improved expression characteristics compared to CylC. They screened 12 phylogenetically diverse CylC homologues and this was the one choosen. Just like in AurF, mutating the metal-binding active site residues causes difficulties with expression. Using E.coli ArcticExpress (DE3), a BL21 derivative solved the issue. In this system Cpn60 and Cpn10 from Oleispira antarctica are constitutively expressed. NocM and NocL copurify with Cpn60 and Cpn10. NocO catalyzes highly chemo-and regioselective chlorination of the terminal carbon of an ACP-tethered dodecanoyl thioester. ,,Mössbauer spectrum of as-isolated NocO exhibits primarily quadrupole doublet features indicative of antiferromagnetically coupled diiron(III) clusters.",
-                "producer": "Nodularia sp. LEGE 06071"
+                "producer": "Nodularia sp. LEGE 06071",
+                "phmm-model": "dimetal-carboxylate.hmm"
             },
             "gene_name": "NocO",
             "reference": "doi.org/10.1021/acs.biochem.4c00720",
@@ -9686,7 +9700,8 @@
             "summary": {
                 "host": "Escherichia coli BL21 (DE3)",
                 "test": "Crystallization",
-                "producer": " Pseudomonas fluorescens Pf-5"
+                "producer": " Pseudomonas fluorescens Pf-5",
+                "phmm-model": "FDH_pyrrole.hmm"
             },
             "gene_name": "PltA",
             "reference": "doi.org/10.1016/j.jsb.2015.09.013",
@@ -9805,7 +9820,8 @@
             "summary": {
                 "host": "E. coli BL21(DE3)",
                 "test": "1-300 nM SalL with 0.5–500 μM SAM and 10–500 mM KX (X = F, Cl, Br, I) or (ii) 0.5–100 mM L-methionine and 0.3–100 μM 5′-XDA (X = F, Cl, Br, I) in 50 mM phosphate buffer (pH 7.9) at 37 °C",
-                "producer": "Salinospora tropica CNB-440"
+                "producer": "Salinospora tropica CNB-440",
+                "phmm-model": "SAM_chlorinase.hmm"
             },
             "gene_name": "SalL",
             "reference": "doi.org/10.1038/nchembio.2007.56",
@@ -9951,7 +9967,8 @@
             "id": 1,
             "summary": {
                 "test": "gene deletion",
-                "producer": "Pseudoalteromonas spp."
+                "producer": "Pseudoalteromonas spp.",
+                "phmm-model": "FDH_pyrrole.hmm"
             },
             "gene_name": "bmp2",
             "reference": "doi.org/10.1038/nchembio.1564",
@@ -9965,7 +9982,8 @@
             "summary": {
                 "host": "E. coli",
                 "test": "kinetic assay with analytical HPLC, 0.5 mg/mL protein incubated with SAM and 200 mM KF in 20 mM sodium phosphate buffer (pH=7.8)",
-                "producer": "Streptomyces sp MA37"
+                "producer": "Streptomyces sp MA37",
+                "phmm-model": "SAM_fluorinase.hmm"
             },
             "gene_name": "flA1",
             "reference": "doi.org/10.1002/cbic.201300732",
@@ -10005,7 +10023,8 @@
             "summary": {
                 "host": "E. coli",
                 "note": "8.20+/-0.96 mM KF. Adenosine and 5'-FDA enhance protein stability and the wild-type enzyme is more stable than other mutants. Tris-HCl buffer (pH 7.0) is better for maintaining stability. Optimal temperature is 40 C. pH is crucial for activity, the enzyme seems to prefer acidic environment as low as 4. Addition of EDTA makes the enzyme less active. Cu and Zn inhibit activity. Excellent stability over 4 days in 25C in a 50 mM Tris-HCl buffer (pH 7.0)",
-                "producer": "Streptomyces xinghaiensis NRRL B24674"
+                "producer": "Streptomyces xinghaiensis NRRL B24674",
+                "phmm-model": "SAM_fluorinase.hmm"
             },
             "gene_name": "flA4",
             "reference": "doi.org/10.1039/C6RA00100A",
@@ -10014,6 +10033,76 @@
         }
     ],
     "gene_Zg_VIPO1": [
+        {
+            "id": 12,
+            "phmm": "-",
+            "effect": "iodination and bromination",
+            "mutation": "S358A",
+            "gene_name": "Zg-VIPO1",
+            "reference": "doi.org/10.1128/AEM.02430-14",
+            "created_at": "2025-07-25T15:26:04.641122",
+            "parent_entry_id": 18
+        },
+        {
+            "id": 13,
+            "phmm": "-",
+            "effect": "decreased catalytic efficiency",
+            "mutation": "H360A",
+            "gene_name": "Zg-VIPO1",
+            "reference": "doi.org/10.1128/AEM.02430-14",
+            "created_at": "2025-07-25T15:26:04.641122",
+            "parent_entry_id": 18
+        },
+        {
+            "id": 14,
+            "phmm": "-",
+            "effect": "decreased catalytic efficiency",
+            "mutation": "H360S",
+            "gene_name": "Zg-VIPO1",
+            "reference": "doi.org/10.1128/AEM.02430-14",
+            "created_at": "2025-07-25T15:26:04.641122",
+            "parent_entry_id": 18
+        },
+        {
+            "id": 15,
+            "phmm": "-",
+            "effect": "decreased catalytic efficiency",
+            "mutation": "R410A",
+            "gene_name": "Zg-VIPO1",
+            "reference": "doi.org/10.1128/AEM.02430-14",
+            "created_at": "2025-07-25T15:26:04.641122",
+            "parent_entry_id": 18
+        },
+        {
+            "id": 16,
+            "phmm": "-",
+            "effect": "only iodination",
+            "mutation": "C320S",
+            "gene_name": "Zg-VIPO1",
+            "reference": "doi.org/10.1128/AEM.02430-14",
+            "created_at": "2025-07-25T15:26:04.641122",
+            "parent_entry_id": 18
+        },
+        {
+            "id": 17,
+            "phmm": "-",
+            "effect": "only iodination",
+            "mutation": "D322K",
+            "gene_name": "Zg-VIPO1",
+            "reference": "doi.org/10.1128/AEM.02430-14",
+            "created_at": "2025-07-25T15:26:04.641122",
+            "parent_entry_id": 18
+        },
+        {
+            "id": 18,
+            "phmm": "-",
+            "effect": "decreased catalytic efficiency",
+            "mutation": "D322Y",
+            "gene_name": "Zg-VIPO1",
+            "reference": "doi.org/10.1128/AEM.02430-14",
+            "created_at": "2025-07-25T15:26:04.641122",
+            "parent_entry_id": 18
+        },
         {
             "id": 1,
             "phmm": "261",
@@ -10076,7 +10165,7 @@
         },
         {
             "id": 7,
-            "phmm": null,
+            "phmm": "-",
             "effect": "iodination and bromination",
             "mutation": "Y263A",
             "gene_name": "Zg-VIPO1",
@@ -10086,7 +10175,7 @@
         },
         {
             "id": 8,
-            "phmm": null,
+            "phmm": "-",
             "effect": "only iodination",
             "mutation": "Y263S",
             "gene_name": "Zg-VIPO1",
@@ -10096,7 +10185,7 @@
         },
         {
             "id": 9,
-            "phmm": null,
+            "phmm": "-",
             "effect": "only iodination",
             "mutation": "Y263F",
             "gene_name": "Zg-VIPO1",
@@ -10106,7 +10195,7 @@
         },
         {
             "id": 10,
-            "phmm": null,
+            "phmm": "-",
             "effect": "only iodination",
             "mutation": "W321R",
             "gene_name": "Zg-VIPO1",
@@ -10116,79 +10205,9 @@
         },
         {
             "id": 11,
-            "phmm": null,
+            "phmm": "-",
             "effect": "only iodination",
             "mutation": "F353H",
-            "gene_name": "Zg-VIPO1",
-            "reference": "doi.org/10.1128/AEM.02430-14",
-            "created_at": "2025-07-25T15:26:04.641122",
-            "parent_entry_id": 18
-        },
-        {
-            "id": 12,
-            "phmm": null,
-            "effect": "iodination and bromination",
-            "mutation": "S358A",
-            "gene_name": "Zg-VIPO1",
-            "reference": "doi.org/10.1128/AEM.02430-14",
-            "created_at": "2025-07-25T15:26:04.641122",
-            "parent_entry_id": 18
-        },
-        {
-            "id": 13,
-            "phmm": null,
-            "effect": "decreased catalytic efficiency",
-            "mutation": "H360A",
-            "gene_name": "Zg-VIPO1",
-            "reference": "doi.org/10.1128/AEM.02430-14",
-            "created_at": "2025-07-25T15:26:04.641122",
-            "parent_entry_id": 18
-        },
-        {
-            "id": 14,
-            "phmm": null,
-            "effect": "decreased catalytic efficiency",
-            "mutation": "H360S",
-            "gene_name": "Zg-VIPO1",
-            "reference": "doi.org/10.1128/AEM.02430-14",
-            "created_at": "2025-07-25T15:26:04.641122",
-            "parent_entry_id": 18
-        },
-        {
-            "id": 15,
-            "phmm": null,
-            "effect": "decreased catalytic efficiency",
-            "mutation": "R410A",
-            "gene_name": "Zg-VIPO1",
-            "reference": "doi.org/10.1128/AEM.02430-14",
-            "created_at": "2025-07-25T15:26:04.641122",
-            "parent_entry_id": 18
-        },
-        {
-            "id": 16,
-            "phmm": null,
-            "effect": "only iodination",
-            "mutation": "C320S",
-            "gene_name": "Zg-VIPO1",
-            "reference": "doi.org/10.1128/AEM.02430-14",
-            "created_at": "2025-07-25T15:26:04.641122",
-            "parent_entry_id": 18
-        },
-        {
-            "id": 17,
-            "phmm": null,
-            "effect": "only iodination",
-            "mutation": "D322K",
-            "gene_name": "Zg-VIPO1",
-            "reference": "doi.org/10.1128/AEM.02430-14",
-            "created_at": "2025-07-25T15:26:04.641122",
-            "parent_entry_id": 18
-        },
-        {
-            "id": 18,
-            "phmm": null,
-            "effect": "decreased catalytic efficiency",
-            "mutation": "D322Y",
             "gene_name": "Zg-VIPO1",
             "reference": "doi.org/10.1128/AEM.02430-14",
             "created_at": "2025-07-25T15:26:04.641122",
@@ -10267,18 +10286,6 @@
     ],
     "summary_CVBPO": [
         {
-            "id": 1,
-            "summary": {
-                "note": "Ca,Mg and strontium increases stability, vanadate increases thermostability",
-                "test": "X-ray crystallography",
-                "producer": "Corallina pilulifera"
-            },
-            "gene_name": "CVBPO",
-            "reference": "doi.org/10.1007/s00775-005-0639-3",
-            "created_at": "2025-05-16T09:36:52.629677",
-            "parent_entry_id": 15
-        },
-        {
             "id": 2,
             "summary": {
                 "test": "MCD assay and I2 formation for iodination testing",
@@ -10288,6 +10295,19 @@
             "gene_name": "CVBPO",
             "reference": "doi.org/10.1016/S0021-9258(19)89233-5",
             "created_at": "2025-07-23T16:09:59.423095",
+            "parent_entry_id": 15
+        },
+        {
+            "id": 1,
+            "summary": {
+                "note": "Ca,Mg and strontium increases stability, vanadate increases thermostability",
+                "phmm": "VHPO_VBPO.hmm",
+                "test": "X-ray crystallography",
+                "producer": "Corallina pilulifera"
+            },
+            "gene_name": "CVBPO",
+            "reference": "doi.org/10.1007/s00775-005-0639-3",
+            "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 15
         }
     ],
@@ -10307,7 +10327,8 @@
             "summary": {
                 "host": "E. coli BL21 (DE3)",
                 "test": "30 microM protein, 0.5 mM (NH)4Fe(SO4), 2.5 mM alpha-ketoglutaric acid sodium salt, 1 mM ascorbic acid, 10 mM NaBr/NaI/NaN3/NaNO2/NaOCN/NaSCN and 1 mM dGMP in HEPES buffer (pH 7.5)",
-                "producer": "Catellatospora tritici"
+                "producer": "Catellatospora tritici",
+                "phmm-model": "NHFe_nucleotide.hmm"
             },
             "gene_name": "CtNTH",
             "reference": "doi.org/10.1038/s41467-024-49147-7",
@@ -10321,7 +10342,8 @@
             "summary": {
                 "host": "E. coli",
                 "test": "Crystallography",
-                "producer": "Streptomyces sp."
+                "producer": "Streptomyces sp.",
+                "phmm-model": "NHFe_variant_B.hmm"
             },
             "gene_name": "CytC3",
             "reference": "doi.org/10.1021/ja8097355",
@@ -10408,7 +10430,8 @@
             "id": 1,
             "summary": {
                 "test": "gene deletion",
-                "producer": "Streptomyces sp. CNQ-418"
+                "producer": "Streptomyces sp. CNQ-418",
+                "phmm-model": "FDH_pyrrole.hmm"
             },
             "gene_name": "Mpy16",
             "reference": "doi.org/10.1021/ja305670f",
@@ -10501,7 +10524,8 @@
             "id": 1,
             "summary": {
                 "test": "Crystallography",
-                "producer": "Pseudomonas syringae pv. syringae B301D"
+                "producer": "Pseudomonas syringae pv. syringae B301D",
+                "phmm-model": "NHFe_variant_B.hmm"
             },
             "gene_name": "SyrB2",
             "reference": "doi.org/10.1038/nature04544",
@@ -10805,7 +10829,8 @@
             "summary": {
                 "host": "E. coli",
                 "test": "X-ray crystallography",
-                "producer": "Acaryochloris marina"
+                "producer": "Acaryochloris marina",
+                "phmm-model": "VHPO_VBPO.hmm"
             },
             "gene_name": "AmVBPO1",
             "reference": "doi.org/10.1002/cbic.201600417",
@@ -10925,7 +10950,8 @@
                 "host": "E. coli",
                 "note": ",,'TB (100 μM), KI (80 μM to 2 mM) or KBr (1.5 to 10 mM), and H2O2 (0.42 mM and 0.1 mM for iodo- and bromoperoxidase assays, respectively)'",
                 "test": "mutagenesis, Thyblue",
-                "producer": "Zobellia galactanivorans"
+                "producer": "Zobellia galactanivorans",
+                "phmm-model": "VHPO_VIPO.hmm"
             },
             "gene_name": "Zg-VIPO1",
             "reference": "doi.org/10.1128/AEM.02430-14",
@@ -10953,7 +10979,8 @@
             "summary": {
                 "host": "E. coli",
                 "test": "steady-state kinetics assays with 1μM of the protein, 1.5–800 μM SAM and 75 mM KF",
-                "producer": "Methanosaeta sp. PtaU1.Bin055"
+                "producer": "Methanosaeta sp. PtaU1.Bin055",
+                "phmm-model": "SAM_fluorinase.hmm"
             },
             "gene_name": "FlA(PtaU1)",
             "reference": "doi.org/10.1021/acscatal.2c01184",
