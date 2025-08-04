@@ -18,6 +18,10 @@
                 Enzyme Information
             </div>
             <div class="card-body">
+                <tr>
+                    <b>reference: </b>{{enzyme_details[0][0]["reference"]}}
+                    <br>
+                </tr>
                 {% for data, detail in enzyme_details[0][0]["summary"].items() %}
                 <tr>
                     <b>{{ data }}:</b> {{ detail }}

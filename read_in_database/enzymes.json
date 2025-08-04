@@ -1625,6 +1625,20 @@
             "validation_type": "in vitro"
         },
         {
+            "id": 54,
+            "family": "Flavin-dependent",
+            "iodide": "not tested",
+            "bromide": "not tested",
+            "cloride": "utilized",
+            "species": "Streptomyces venezuelae",
+            "fluoride": "not tested",
+            "function": "halogenation",
+            "accession": "Q9AL91",
+            "gene_name": "CmlS",
+            "reference": "doi.org/10.1107/S1744309108043091, doi.org/10.1016/j.jmb.2010.01.020, doi.org/10.1099/mic.0.26319-0",
+            "validation_type": "in vivo"
+        },
+        {
             "id": 46,
             "family": "Flavin-dependent",
             "iodide": "not tested",
@@ -1692,20 +1706,6 @@
             "accession": "ELS56116",
             "gene_name": "AviH",
             "reference": "doi.org/10.1016/S1074-5521(01)00040-0",
-            "validation_type": "in vivo"
-        },
-        {
-            "id": 54,
-            "family": "Flavin-dependent",
-            "iodide": "not tested",
-            "bromide": "not tested",
-            "cloride": "utilized",
-            "species": "Streptomyces venezuelae",
-            "fluoride": "not tested",
-            "function": "halogenation",
-            "accession": "3I3L",
-            "gene_name": "CmlS",
-            "reference": "doi.org/10.1107/S1744309108043091, doi.org/10.1016/j.jmb.2010.01.020, doi.org/10.1099/mic.0.26319-0",
             "validation_type": "in vivo"
         },
         {
@@ -3249,113 +3249,93 @@
         },
         {
             "id": 2,
-            "phmm": null,
-            "effect": "conserved for hydrogen bonding with the cofactor",
-            "mutation": "D33",
+            "phmm": "18",
+            "effect": "conserved for hydrogen bonding with the cofactor (says D33 in the paper)",
+            "mutation": "E33",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:12:01.080245",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 3,
-            "phmm": null,
+            "phmm": "24",
             "effect": "hydrogen bond with 3' hydroxyl of the adenosine moiety",
             "mutation": "R39",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:12:17.782457",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 4,
-            "phmm": null,
+            "phmm": "19",
             "effect": "H-bond with the adenosine N7 and ribitol O3 hydroxyl",
             "mutation": "R35",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:16:35.092723",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 5,
-            "phmm": null,
+            "phmm": "286",
             "effect": "H-bond with the adenosine N7 and ribitol O3 hydroxyl",
             "mutation": "D295",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:16:35.092723",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 6,
-            "phmm": null,
+            "phmm": "26",
             "effect": "stabilize oxygens of the pyrophosphate moiety",
             "mutation": "R41",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:16:35.092723",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 7,
-            "phmm": null,
+            "phmm": "97",
             "effect": "stabilize oxygens of the pyrophosphate moiety",
             "mutation": "R107",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:16:35.092723",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 8,
-            "phmm": null,
+            "phmm": "268",
             "effect": "covalent linkage with the 8alpha carbon of the flavin ring",
             "mutation": "D277",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:17:50.788617",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 9,
-            "phmm": null,
+            "phmm": "269",
             "effect": "juts from the solvent-exposed surface",
             "mutation": "W278",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:19:13.211455",
-            "parent_entry_id": null
-        },
-        {
-            "id": 10,
-            "phmm": null,
-            "effect": null,
-            "mutation": "D285",
-            "gene_name": "CmlS",
-            "reference": "doi.org/10.1016/j.jmb.2010.01.020",
-            "created_at": "2025-07-28T16:20:21.069048",
-            "parent_entry_id": null
-        },
-        {
-            "id": 11,
-            "phmm": null,
-            "effect": null,
-            "mutation": "Y286",
-            "gene_name": "CmlS",
-            "reference": "doi.org/10.1016/j.jmb.2010.01.020",
-            "created_at": "2025-07-28T16:20:21.069048",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         },
         {
             "id": 12,
-            "phmm": null,
+            "phmm": "226",
             "effect": "highly conserved in FDHs",
             "mutation": "R234",
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
             "created_at": "2025-07-28T16:20:21.069048",
-            "parent_entry_id": null
+            "parent_entry_id": 54
         }
     ],
     "gene_CndH": [
@@ -5504,6 +5484,7 @@
     "gene_PltM": [
         {
             "id": 1,
+            "phmm": "-",
             "effect": "inactive in vitro",
             "mutation": "K87A",
             "gene_name": "PltM",
@@ -5513,6 +5494,7 @@
         },
         {
             "id": 2,
+            "phmm": "-",
             "effect": "decreased efficiency for monochlorination and dichlorination",
             "mutation": "L111Y",
             "gene_name": "PltM",
@@ -5522,6 +5504,7 @@
         },
         {
             "id": 3,
+            "phmm": "-",
             "effect": "decreased efficiency compared to WT and only monochlorinated compounds",
             "mutation": "S404Y",
             "gene_name": "PltM",
@@ -5531,6 +5514,7 @@
         },
         {
             "id": 4,
+            "phmm": "33",
             "effect": "substrate binding site",
             "mutation": "P48",
             "gene_name": "PltM",
@@ -5540,6 +5524,7 @@
         },
         {
             "id": 5,
+            "phmm": "34",
             "effect": "substrate binding site",
             "mutation": "E49",
             "gene_name": "PltM",
@@ -5549,6 +5534,7 @@
         },
         {
             "id": 6,
+            "phmm": "57",
             "effect": "substrate binding site",
             "mutation": "K87",
             "gene_name": "PltM",
@@ -5558,6 +5544,7 @@
         },
         {
             "id": 7,
+            "phmm": "60",
             "effect": "substrate binding site",
             "mutation": "F90",
             "gene_name": "PltM",
@@ -5567,6 +5554,7 @@
         },
         {
             "id": 8,
+            "phmm": "364",
             "effect": "substrate binding site",
             "mutation": "W400",
             "gene_name": "PltM",
@@ -5576,6 +5564,7 @@
         },
         {
             "id": 9,
+            "phmm": "82",
             "effect": "substrate binding site",
             "mutation": "L111",
             "gene_name": "PltM",
@@ -5585,6 +5574,7 @@
         },
         {
             "id": 10,
+            "phmm": "466",
             "effect": "substrate binding site",
             "mutation": "K501",
             "gene_name": "PltM",
@@ -5594,6 +5584,7 @@
         },
         {
             "id": 11,
+            "phmm": "365",
             "effect": "substrate binding site",
             "mutation": "L401",
             "gene_name": "PltM",
@@ -5603,6 +5594,7 @@
         },
         {
             "id": 12,
+            "phmm": "367",
             "effect": "substrate binding site",
             "mutation": "N405",
             "gene_name": "PltM",
@@ -5612,6 +5604,7 @@
         },
         {
             "id": 13,
+            "phmm": "366",
             "effect": "substrate binding site",
             "mutation": "S404",
             "gene_name": "PltM",
@@ -5621,6 +5614,7 @@
         },
         {
             "id": 14,
+            "phmm": "296",
             "effect": "FAD binding",
             "mutation": "S331",
             "gene_name": "PltM",
@@ -5630,6 +5624,7 @@
         },
         {
             "id": 15,
+            "phmm": "154",
             "effect": "FAD binding",
             "mutation": "Q175",
             "gene_name": "PltM",
@@ -5639,6 +5634,7 @@
         },
         {
             "id": 16,
+            "phmm": "286",
             "effect": "FAD binding",
             "mutation": "Q321",
             "gene_name": "PltM",
@@ -5647,16 +5643,8 @@
             "parent_entry_id": 52
         },
         {
-            "id": 17,
-            "effect": "FAD binding",
-            "mutation": "A174",
-            "gene_name": "PltM",
-            "reference": "doi.org/10.1038/s41467-019-09215-9",
-            "created_at": "2025-07-29T09:14:00.102732",
-            "parent_entry_id": 52
-        },
-        {
             "id": 18,
+            "phmm": "153",
             "effect": "FAD binding",
             "mutation": "A173",
             "gene_name": "PltM",
@@ -5666,6 +5654,7 @@
         },
         {
             "id": 19,
+            "phmm": "24",
             "effect": "FAD binding",
             "mutation": "R39",
             "gene_name": "PltM",
@@ -5675,6 +5664,7 @@
         },
         {
             "id": 20,
+            "phmm": "290",
             "effect": "flexible loop; changes conformation upon FAD binding",
             "mutation": "F325",
             "gene_name": "PltM",
@@ -5684,6 +5674,7 @@
         },
         {
             "id": 21,
+            "phmm": "286",
             "effect": "flexible loop; changes conformation upon FAD binding",
             "mutation": "Q321",
             "gene_name": "PltM",
@@ -5693,6 +5684,7 @@
         },
         {
             "id": 22,
+            "phmm": "154",
             "effect": "flexible loop; changes conformation upon FAD binding",
             "mutation": "Q175",
             "gene_name": "PltM",
@@ -5701,12 +5693,13 @@
             "parent_entry_id": 52
         },
         {
-            "id": 23,
-            "effect": "flexible loop; changes conformation upon FAD binding",
+            "id": 17,
+            "phmm": "152",
+            "effect": "FAD binding; flexible loop; changes conformation upon FAD binding",
             "mutation": "A174",
             "gene_name": "PltM",
             "reference": "doi.org/10.1038/s41467-019-09215-9",
-            "created_at": "2025-07-29T09:15:14.348685",
+            "created_at": "2025-07-29T09:14:00.102732",
             "parent_entry_id": 52
         }
     ],
@@ -7610,182 +7603,142 @@
     "gene_NapH1": [
         {
             "id": 1,
+            "phmm": "-",
             "effect": "inactive",
             "mutation": "H420F",
             "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/ja201088k",
+            "reference": "doi.org/10.1021/ja201088k",
             "created_at": "2025-05-14T11:52:10.277212",
             "parent_entry_id": 8
         },
         {
             "id": 2,
+            "phmm": "-",
             "effect": "exclusively catalyzes the formation of SF2415B1-based bromohydrins",
             "mutation": "S427H",
             "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/ja201088k",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 3,
-            "effect": "covalently binds the vanadate cofactor",
-            "mutation": "H496",
-            "gene_name": "NapH1",
-            "reference": " DOI 10.1074/jbc.M611046200",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 4,
-            "effect": null,
-            "mutation": "Lys353",
-            "gene_name": "NapH1",
-            "reference": " DOI 10.1074/jbc.M611046200",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 5,
-            "effect": null,
-            "mutation": "Arg360",
-            "gene_name": "NapH1",
-            "reference": " DOI 10.1074/jbc.M611046200",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 6,
-            "effect": "His404 is replaced by Ser in NapH1; NapH4 F in this position in NapH3",
-            "mutation": "Ser402",
-            "gene_name": "NapH1",
-            "reference": " DOI 10.1074/jbc.M611046200",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 7,
-            "effect": null,
-            "mutation": "Gly403",
-            "gene_name": "NapH1",
-            "reference": " DOI 10.1074/jbc.M611046200",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 8,
-            "effect": null,
-            "mutation": "Arg490",
-            "gene_name": "NapH1",
-            "reference": " DOI 10.1074/jbc.M611046200",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 9,
-            "effect": "vanadate cofactor coordination",
-            "mutation": "H494",
-            "gene_name": "NapH1",
-            "reference": " DOI 10.1074/jbc.M611046200",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 10,
-            "effect": "charge-interaction with vanadate cofactor coordination",
-            "mutation": "K372",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 11,
-            "effect": "charge-interaction with vanadate cofactor coordination",
-            "mutation": "R379",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 12,
-            "effect": "charge-interaction with vanadate cofactor coordination",
-            "mutation": "R488",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 13,
-            "effect": "extends towards the vanadate cofactor and S427; essential for stereospecific chlorofunctionalization; conserved in enantioselective halogenating enzymes",
-            "mutation": "K324",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 14,
-            "effect": "active for hypobromite formation; cannot catalyze chloro/bromocyclization of naphtomevalin",
-            "mutation": "K324M",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 15,
-            "effect": "active for hypobromite formation",
-            "mutation": "K324R",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 16,
-            "effect": "diminished hypobromite formation activity",
-            "mutation": "S427A",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
-            "created_at": "2025-05-15T10:15:17.311834",
-            "parent_entry_id": 8
-        },
-        {
-            "id": 17,
-            "effect": "conserved in enantioselective halogenating enzymes; H in other structurally characterized VHPOs; bonds with vanadate and K324",
-            "mutation": "S427",
-            "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
+            "reference": "doi.org/10.1021/ja201088k",
             "created_at": "2025-05-15T10:15:17.311834",
             "parent_entry_id": 8
         },
         {
             "id": 18,
+            "phmm": "-",
             "effect": "cannot convert SF2415B1 to SF2415B3 (lost chlorination activity and hypobromite formation)",
-            "mutation": "cannot convert SF2415B1 to SF2415B3 (lost chlorination activity and hypobromite formation)",
+            "mutation": "K372F",
             "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
             "created_at": "2025-05-15T10:20:27.48731",
             "parent_entry_id": 8
         },
         {
+            "id": 14,
+            "phmm": "-",
+            "effect": "active for hypobromite formation; cannot catalyze chloro/bromocyclization of naphtomevalin",
+            "mutation": "K324M",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 15,
+            "phmm": "-",
+            "effect": "active for hypobromite formation",
+            "mutation": "K324R",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 16,
+            "phmm": "-",
+            "effect": "diminished hypobromite formation activity",
+            "mutation": "S427A",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
             "id": 19,
+            "phmm": "-",
             "effect": "cannot convert SF2415B1 to SF2415B3 (lost chlorination activity and hypobromite formation)",
             "mutation": "R379V",
             "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
             "created_at": "2025-05-15T10:20:27.48731",
             "parent_entry_id": 8
         },
         {
             "id": 20,
+            "phmm": "-",
             "effect": "cannot convert SF2415B1 to SF2415B3 (lost chlorination activity and hypobromite formation)",
             "mutation": "W369E",
             "gene_name": "NapH1",
-            "reference": "doi/full/10.1021/acs.biochem.2c00338",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
             "created_at": "2025-05-15T10:20:27.48731",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 17,
+            "phmm": "295",
+            "effect": "conserved in enantioselective halogenating enzymes; H in other structurally characterized VHPOs; bonds with vanadate and K324",
+            "mutation": "S427",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 9,
+            "phmm": "362",
+            "effect": "vanadate cofactor coordination",
+            "mutation": "H494",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1074/jbc.M611046200",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 11,
+            "phmm": "246",
+            "effect": "charge-interaction with vanadate cofactor coordination",
+            "mutation": "R379",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 13,
+            "phmm": "191",
+            "effect": "extends towards the vanadate cofactor and S427; essential for stereospecific chlorofunctionalization; conserved in enantioselective halogenating enzymes",
+            "mutation": "K324",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 10,
+            "phmm": "239",
+            "effect": "charge-interaction with vanadate cofactor coordination",
+            "mutation": "K372",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
+            "parent_entry_id": 8
+        },
+        {
+            "id": 12,
+            "phmm": "356",
+            "effect": "charge-interaction with vanadate cofactor coordination",
+            "mutation": "R488",
+            "gene_name": "NapH1",
+            "reference": "doi.org/10.1021/acs.biochem.2c00338",
+            "created_at": "2025-05-15T10:15:17.311834",
             "parent_entry_id": 8
         }
     ],
@@ -8232,34 +8185,8 @@
     ],
     "gene_CiVCPO": [
         {
-            "id": 11,
-            "effect": "inactive at low pH, but is reversible at pH 8.3; pH 4 in the presence of H2O2 doesn't result in inactivation; chlorination seems to be pH dependent",
-            "mutation": "D292A",
-            "gene_name": "CiVCPO",
-            "reference": "doi.org/10.1074/jbc.275.16.11650",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 2,
-            "effect": "partial loss of chloroperoxidase activity; higher affinity and rate of oxidation reaction; competition between this halide binding site and peroxide-lower concentrations of H2O2 lead to stronger inhibition by bromide; better bromoperoxidase at high pH",
-            "mutation": "F397H",
-            "gene_name": "CiVCPO",
-            "reference": "doi.org/10.1016/S0020-1693(03)00476-6",
-            "created_at": "2025-05-15T10:27:21.114789",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 29,
-            "effect": "positive charge-vanadate, may assist C-X bond formation",
-            "mutation": "Lys394",
-            "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
             "id": 30,
+            "phmm": "140",
             "effect": "negative charge, residues poteintially involved in substrate-binding",
             "mutation": "Glu196",
             "gene_name": "CiVCPO",
@@ -8268,70 +8195,38 @@
             "parent_entry_id": 10
         },
         {
-            "id": 31,
-            "effect": "positive charge-vanadate; HOX will target C3",
-            "mutation": "Arg360",
-            "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
             "id": 32,
-            "effect": "positive charge-vanadate; HOX will target C3",
+            "phmm": "392",
+            "effect": "positive charge-vanadate; HOX will target C3; H-bond; stabilize the pentacoordinated transition state; contact to two of the equatorial oxygens in VCPO",
             "mutation": "Arg490",
             "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
+            "reference": "doi/full/10.1021/acscatal.3c00761,\nS0021-9258(19)55497-7,\ndoi.org/10.1074/jbc.275.16.11650",
             "created_at": "2025-05-15T10:39:34.775511",
             "parent_entry_id": 10
         },
         {
             "id": 33,
-            "effect": "HOX will target C3",
+            "phmm": "269",
+            "effect": "HOX will target C3; stabilize the pentacoordinated transition state",
             "mutation": "Lys353",
             "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
+            "reference": "doi/full/10.1021/acscatal.3c00761,\nS0021-9258(19)55497-7,\ndoi.org/10.1074/jbc.275.16.11650",
             "created_at": "2025-05-15T10:39:34.775511",
             "parent_entry_id": 10
         },
         {
-            "id": 3,
-            "effect": "cannot bind canadate covalently -> inactive enzyme",
-            "mutation": "H496A",
+            "id": 31,
+            "phmm": "277",
+            "effect": "positive charge-vanadate; HOX will target C3; H-bond; stabilize the pentacoordinated transition state",
+            "mutation": "Arg360",
             "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
-            "created_at": "2025-05-15T10:27:21.114789",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 4,
-            "effect": "H-bond",
-            "mutation": "R360",
-            "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
-            "created_at": "2025-05-15T10:27:21.114789",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 5,
-            "effect": "H-bond",
-            "mutation": "R490",
-            "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
-            "created_at": "2025-05-15T10:27:21.114789",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 6,
-            "effect": "H-bond",
-            "mutation": "K353",
-            "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
-            "created_at": "2025-05-15T10:27:21.114789",
+            "reference": "doi/full/10.1021/acscatal.3c00761,\nS0021-9258(19)55497-7,\ndoi.org/10.1074/jbc.275.16.11650",
+            "created_at": "2025-05-15T10:39:34.775511",
             "parent_entry_id": 10
         },
         {
             "id": 7,
+            "phmm": "-",
             "effect": "bromoperoxidase; no chlorination",
             "mutation": "K353A",
             "gene_name": "CiVCPO",
@@ -8341,6 +8236,7 @@
         },
         {
             "id": 8,
+            "phmm": "-",
             "effect": "bromoperoxidase; no chlorination",
             "mutation": "R360A",
             "gene_name": "CiVCPO",
@@ -8350,6 +8246,7 @@
         },
         {
             "id": 9,
+            "phmm": "-",
             "effect": "bromoperoxidase; no chlorination",
             "mutation": "R490A",
             "gene_name": "CiVCPO",
@@ -8359,6 +8256,7 @@
         },
         {
             "id": 1,
+            "phmm": "-",
             "effect": "lower activity (Km for chloride strongly dependent of pH, Km for bromide not significantly dependent on pH); not crucial for halogenation activity",
             "mutation": "S402A",
             "gene_name": "CiVCPO",
@@ -8368,6 +8266,7 @@
         },
         {
             "id": 10,
+            "phmm": "-",
             "effect": "no chlorination; bromination",
             "mutation": "H404A",
             "gene_name": "CiVCPO",
@@ -8377,6 +8276,7 @@
         },
         {
             "id": 12,
+            "phmm": "-",
             "effect": "reduction in chlorination",
             "mutation": "R360A",
             "gene_name": "CiVCPO",
@@ -8386,6 +8286,7 @@
         },
         {
             "id": 13,
+            "phmm": "-",
             "effect": "no chlorination",
             "mutation": "R490A",
             "gene_name": "CiVCPO",
@@ -8395,6 +8296,7 @@
         },
         {
             "id": 14,
+            "phmm": "-",
             "effect": "no chlorination; some peroxidase activity; decreased phosphatase activity",
             "mutation": "K353A",
             "gene_name": "CiVCPO",
@@ -8403,90 +8305,40 @@
             "parent_entry_id": 10
         },
         {
-            "id": 15,
-            "effect": "conserved in acid-phosphatases",
-            "mutation": "H404",
+            "id": 11,
+            "phmm": "-",
+            "effect": "inactive at low pH, but is reversible at pH 8.3; pH 4 in the presence of H2O2 doesn't result in inactivation; chlorination seems to be pH dependent",
+            "mutation": "D292A",
             "gene_name": "CiVCPO",
             "reference": "doi.org/10.1074/jbc.275.16.11650",
             "created_at": "2025-05-15T10:39:34.775511",
             "parent_entry_id": 10
         },
         {
-            "id": 16,
-            "effect": "unlikely that it is a proton donor (phosphatase activity of D292A)",
-            "mutation": "D292",
+            "id": 2,
+            "phmm": "-",
+            "effect": "partial loss of chloroperoxidase activity; higher affinity and rate of oxidation reaction; competition between this halide binding site and peroxide-lower concentrations of H2O2 lead to stronger inhibition by bromide; better bromoperoxidase at high pH",
+            "mutation": "F397H",
             "gene_name": "CiVCPO",
-            "reference": "doi.org/10.1074/jbc.275.16.11650",
-            "created_at": "2025-05-15T10:39:34.775511",
+            "reference": "doi.org/10.1016/S0020-1693(03)00476-6",
+            "created_at": "2025-05-15T10:27:21.114789",
             "parent_entry_id": 10
         },
         {
-            "id": 17,
-            "effect": "stabilize the pentacoordinated transition state",
-            "mutation": "R360",
+            "id": 3,
+            "phmm": "-",
+            "effect": "cannot bind canadate covalently -> inactive enzyme",
+            "mutation": "H496A",
             "gene_name": "CiVCPO",
-            "reference": "doi.org/10.1074/jbc.275.16.11650",
-            "created_at": "2025-05-15T10:39:34.775511",
+            "reference": "S0021-9258(19)55497-7",
+            "created_at": "2025-05-15T10:27:21.114789",
             "parent_entry_id": 10
         },
         {
-            "id": 18,
-            "effect": "stabilize the pentacoordinated transition state; contact to two of the equatorial oxygens in VCPO",
-            "mutation": "R490",
-            "gene_name": "CiVCPO",
-            "reference": "doi.org/10.1074/jbc.275.16.11650",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 19,
-            "effect": "stabilize the pentacoordinated transition state",
-            "mutation": "K353",
-            "gene_name": "CiVCPO",
-            "reference": "doi.org/10.1074/jbc.275.16.11650",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 20,
-            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
-            "mutation": "Pro47",
-            "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 21,
-            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
-            "mutation": "His222",
-            "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 22,
-            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
-            "mutation": "Gln220",
-            "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 23,
-            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
-            "mutation": "Asp292",
-            "gene_name": "CiVCPO",
-            "reference": "doi/full/10.1021/acscatal.3c00761",
-            "created_at": "2025-05-15T10:39:34.775511",
-            "parent_entry_id": 10
-        },
-        {
-            "id": 24,
-            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
-            "mutation": "Gly293",
+            "id": 29,
+            "phmm": "315",
+            "effect": "positive charge-vanadate, may assist C-X bond formation",
+            "mutation": "Lys394",
             "gene_name": "CiVCPO",
             "reference": "doi/full/10.1021/acscatal.3c00761",
             "created_at": "2025-05-15T10:39:34.775511",
@@ -8494,6 +8346,7 @@
         },
         {
             "id": 25,
+            "phmm": "311",
             "effect": "negative charge, may assist C-X bond formation 2-phenylindole/methylphenylindole substrate-enzyme complex",
             "mutation": "Asp390",
             "gene_name": "CiVCPO",
@@ -8503,6 +8356,7 @@
         },
         {
             "id": 26,
+            "phmm": "314",
             "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
             "mutation": "Phe393",
             "gene_name": "CiVCPO",
@@ -8512,6 +8366,7 @@
         },
         {
             "id": 27,
+            "phmm": "317",
             "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
             "mutation": "Pro396",
             "gene_name": "CiVCPO",
@@ -8521,10 +8376,71 @@
         },
         {
             "id": 28,
+            "phmm": "318",
             "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
             "mutation": "Phe397",
             "gene_name": "CiVCPO",
             "reference": "doi/full/10.1021/acscatal.3c00761",
+            "created_at": "2025-05-15T10:39:34.775511",
+            "parent_entry_id": 10
+        },
+        {
+            "id": 15,
+            "phmm": "325",
+            "effect": "conserved in acid-phosphatases",
+            "mutation": "H404",
+            "gene_name": "CiVCPO",
+            "reference": "doi.org/10.1074/jbc.275.16.11650",
+            "created_at": "2025-05-15T10:39:34.775511",
+            "parent_entry_id": 10
+        },
+        {
+            "id": 20,
+            "phmm": "-",
+            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
+            "mutation": "Pro47",
+            "gene_name": "CiVCPO",
+            "reference": "doi/full/10.1021/acscatal.3c00761",
+            "created_at": "2025-05-15T10:39:34.775511",
+            "parent_entry_id": 10
+        },
+        {
+            "id": 21,
+            "phmm": "-",
+            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
+            "mutation": "His222",
+            "gene_name": "CiVCPO",
+            "reference": "doi/full/10.1021/acscatal.3c00761",
+            "created_at": "2025-05-15T10:39:34.775511",
+            "parent_entry_id": 10
+        },
+        {
+            "id": 22,
+            "phmm": "-",
+            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
+            "mutation": "Gln220",
+            "gene_name": "CiVCPO",
+            "reference": "doi/full/10.1021/acscatal.3c00761",
+            "created_at": "2025-05-15T10:39:34.775511",
+            "parent_entry_id": 10
+        },
+        {
+            "id": 24,
+            "phmm": "220",
+            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex",
+            "mutation": "Gly293",
+            "gene_name": "CiVCPO",
+            "reference": "doi/full/10.1021/acscatal.3c00761",
+            "created_at": "2025-05-15T10:39:34.775511",
+            "parent_entry_id": 10
+        },
+        {
+            "id": 23,
+            "phmm": "219",
+            "effect": "2-phenylindole/methylphenylindole substrate-enzyme complex; unlikely that it is a proton donor (phosphatase activity of D292A)",
+            "mutation": "Asp292",
+            "gene_name": "CiVCPO",
+            "reference": "doi/full/10.1021/acscatal.3c00761,\ndoi.org/10.1074/jbc.275.16.11650",
             "created_at": "2025-05-15T10:39:34.775511",
             "parent_entry_id": 10
         }
@@ -8532,24 +8448,27 @@
     "gene_CoVBPO": [
         {
             "id": 1,
-            "effect": "regiospecific modification of 1,3-di-tert-butylindole",
+            "phmm": "68",
+            "effect": "(says Glu124 in the paper, it's eather G124 or E126 in the seqeunce) regiospecific modification of 1,3-di-tert-butylindole",
             "mutation": "Glu124",
             "gene_name": "CoVBPO",
-            "reference": "doi/full/10.1021/ja004176c",
+            "reference": "doi.org/10.1021/ja004176c",
             "created_at": "2025-05-15T11:03:53.958685",
             "parent_entry_id": 91
         },
         {
             "id": 2,
+            "phmm": "218",
             "effect": "regiospecific modification of 1,3-di-tert-butylindole",
             "mutation": "Asp292",
             "gene_name": "CoVBPO",
-            "reference": "doi/full/10.1021/ja004176c",
+            "reference": "doi.org/10.1021/ja004176c",
             "created_at": "2025-05-15T12:10:54.746102",
             "parent_entry_id": 91
         },
         {
             "id": 3,
+            "phmm": "-",
             "effect": "no chloroperoxidase activity; bromination and iodination",
             "mutation": "H480A",
             "gene_name": "CoVBPO",
@@ -8559,6 +8478,7 @@
         },
         {
             "id": 4,
+            "phmm": "-",
             "effect": "some residues associated with anion binding site of vanadate cofactor in VBPOs (AF218810; 1QHB; BAA31261; BAA31262;  1QI9A-B; AAC35279)",
             "mutation": "GSPxHPSYxSGHA",
             "gene_name": "CoVBPO",
@@ -8568,6 +8488,7 @@
         },
         {
             "id": 5,
+            "phmm": "-",
             "effect": "some residues associated with anion binding site of vanadate cofactor in VBPOs (AF218810; 1QHB; BAA31261; BAA31262;  1QI9A-B; AAC35279)",
             "mutation": "LTxxGEI/LNKLAxNxAxGRxMxGxHYxxDxxxxLLLGE",
             "gene_name": "CoVBPO",
@@ -8577,10 +8498,11 @@
         },
         {
             "id": 6,
-            "effect": "regiospecific modification of 1,3-di-tert-butylindole",
+            "phmm": "321",
+            "effect": "(says Arg395 in the paper, it's either A395 or R397  in the sequence) regiospecific modification of 1,3-di-tert-butylindole",
             "mutation": "Arg395",
             "gene_name": "CoVBPO",
-            "reference": "doi/full/10.1021/ja004176c",
+            "reference": "doi.org/10.1021/ja004176c",
             "created_at": "2025-05-15T12:15:15.655746",
             "parent_entry_id": 91
         }
@@ -9226,7 +9148,7 @@
                 "halide-source": "10 mM KBr"
             },
             "gene_name": "AetA",
-            "reference": "doi/10.1021/jacs.1c12778",
+            "reference": "doi.org/10.1021/jacs.1c12778",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 72
         }
@@ -9241,7 +9163,7 @@
                 "halide-source": "10 mM KBr"
             },
             "gene_name": "AetF",
-            "reference": "doi/10.1021/jacs.1c12778",
+            "reference": "doi.org/10.1021/jacs.1c12778",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 71
         }
@@ -9426,7 +9348,8 @@
             "id": 2,
             "summary": {
                 "test": "crystallography and mutagenesis",
-                "producer": "Streptomyces venezuelae"
+                "producer": "Streptomyces venezuelae",
+                "phmm-model": "FDH_all_conventional.hmm"
             },
             "gene_name": "CmlS",
             "reference": "doi.org/10.1016/j.jmb.2010.01.020",
@@ -9776,7 +9699,8 @@
             "id": 1,
             "summary": {
                 "host": "E. coli BL21(DE3)",
-                "test": "Crystallization , mutagenesis and in vitro assays (200 mM of either NaF (Assay 1a), NaCl (Assay 1b), NaBr (Assay 1c), or NaI (Assay 1d), 200 μL reaction with 300 mM NaF, substrate (0.5 mM), FAD (0.2 mM), NADPH (5 mM), PltM (5.5 μM), and SsuE (5.0 μM), 30 mM sodium phosphate pH 7.4)"
+                "test": "Crystallization , mutagenesis and in vitro assays (200 mM of either NaF (Assay 1a), NaCl (Assay 1b), NaBr (Assay 1c), or NaI (Assay 1d), 200 μL reaction with 300 mM NaF, substrate (0.5 mM), FAD (0.2 mM), NADPH (5 mM), PltM (5.5 μM), and SsuE (5.0 μM), 30 mM sodium phosphate pH 7.4)",
+                "phmm-model": "FDH_all_conventional.hmm"
             },
             "gene_name": "PltM",
             "reference": "doi.org/10.1038/s41467-019-09215-9",
@@ -10498,7 +10422,8 @@
             "summary": {
                 "host": "E. coli",
                 "test": "MCD assay",
-                "producer": "Streptomyces sp. CNQ-525"
+                "producer": "Streptomyces sp. CNQ-525",
+                "phmm-model": "VHPO_VCPO_selective"
             },
             "gene_name": "NapH1",
             "reference": "doi.org/10.1021/ja201088k",
@@ -10700,6 +10625,7 @@
                 "host": "Saccharomyces cerevisiae (BJ1991)",
                 "test": "MCD assay",
                 "producer": "Curvularia inaequalis",
+                "phmm-model": "VHPO_VCPO_nonselective.hmm",
                 "halide-source": "˝appropriate concentrations of the substrates chloride or bromide˝"
             },
             "gene_name": "CiVCPO",
@@ -10728,6 +10654,7 @@
                 "host": "E. coli",
                 "test": "MCD assay",
                 "producer": "Corallina officinalis",
+                "phmm-model": "VHPO_VBPO.hmm",
                 "halide-source": "0.5-50 mM potassium bromide, 0.25-100 mM potassium iodide"
             },
             "gene_name": "CoVBPO",
@@ -10908,7 +10835,7 @@
                 "halide-source": "0.1 M Br"
             },
             "gene_name": "AnVBPO1",
-            "reference": "doi/abs/10.1021/ja004176c",
+            "reference": "doi.org/10.1021/ja004176c",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 13
         }
@@ -10922,7 +10849,7 @@
                 "halide-source": "1 mM-400 mM KBr"
             },
             "gene_name": "AnVBPO2",
-            "reference": "https://doi.org/10.1016/j.bioorg.2012.05.003",
+            "reference": "doi.org/10.1016/j.bioorg.2012.05.003",
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 14
         }
