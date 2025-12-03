@@ -30,9 +30,13 @@
                         {% for enzyme in enzymes %}
                         <tr>
                             <td>
+                                {% if enzyme.gene_name in summaries %}
                                 <a href="{{ url_for('main_gene_details', gene_name=enzyme.gene_name) }}">
                                     {{ enzyme.gene_name }}
                                 </a>
+                                {% else %}
+                                    {{ enzyme.gene_name }}
+                                {% endif %}
                             </td>
                             <td>
                                 <a>

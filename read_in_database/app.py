@@ -8,14 +8,20 @@ with open('read_in_database/enzymes.json') as f:
     data = json.load(f)
 enzymes = data.get("enzymes", [])
 
+summaries = set()
+for k in data.keys():
+    if k.startswith("summary_"):
+        gene_name = k.replace("summary_", "")
+        summaries.add(gene_name)
+
 @app.route('/')
 def index():
-    return render_template('index.html', enzymes=enzymes)
+    return render_template('index.html', enzymes=enzymes, summaries=summaries)
 
 @app.route('/enzyme/<gene_name>')
 def main_gene_details(gene_name):
     # First, find the enzyme in the main list to verify it exists
-    enzyme = next((e for e in enzymes if e.get("gene_name") == gene_name), None)
+    enzyme = next((e for e in summaries), None)
     if not enzyme:
         return "Enzyme not found", 404
 
@@ -31,7 +37,8 @@ def main_gene_details(gene_name):
         if enzyme_detail:
             return render_template('gene_details.html', enzyme_details=[summary_detail, enzyme_detail], gene_name=gene_name)
 
-    return "Enzyme details not found", 404
+    return "Enzyme details not found 404"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
