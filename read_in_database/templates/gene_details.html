@@ -20,7 +20,12 @@
             <div class="card-body">
                 {%for summary in enzyme_details[0]%}
                 <tr>
-                    <b>reference: </b>{{summary["reference"]}}
+                    <b>reference: </b>
+                    {% for ref in summary["reference"] %}
+                    <a href="https://{{ ref }}">
+                    {{ ref }}
+                    </a>
+                    {% endfor %}
                     <br>
                 </tr>
                     {% for data, detail in summary["summary"].items() %}

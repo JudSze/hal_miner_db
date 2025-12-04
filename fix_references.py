@@ -13,7 +13,3 @@ with open("/home/szenei/hal_miner_db/read_in_database/enzymes_copy.json", "r") a
         updated_enzymes["enzymes"].append(entry)
     with open("/home/szenei/hal_miner_db/read_in_database/updated_enzymes.json", "w") as updated_enzymes_db:
         json.dump(updated_enzymes, updated_enzymes_db)
-
-
-
-
