@@ -79,9 +79,11 @@
                                 </a>
                             </td>
                             <td>
-                                <a>
-                                {{ enzyme.reference }}
+                                {% for ref in enzyme.reference %}
+                                <a href="https://{{ ref }}">
+                                {{ ref }}
                                 </a>
+                                {% endfor %}
                             </td>
                         </tr>
                         {% endfor %}
