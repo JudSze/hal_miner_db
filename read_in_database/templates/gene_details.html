@@ -57,9 +57,16 @@
                         <tbody>
                             {% for column in enzyme_details[1] %}
                             <tr>
-                                {% for detail in column if detail not in ["id", "created_at", "parent_entry_id"] %}
+                                {% for detail in column if detail in ["phmm", "effect", "mutation", "gene_name"] %}
                                 <td>{{ column[detail] }}</td>
                                 {% endfor %}
+                                <td>
+                                {% for ref in column["reference"] %}
+                                <a href="https://doi.org/{{ ref }}">
+                                    DOI: {{ ref }}
+                                </a>
+                                {% endfor %}
+                                </td>
                             </tr>
                             {% endfor %}
                         </tbody>
