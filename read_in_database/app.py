@@ -1,10 +1,13 @@
 from flask import Flask, render_template, jsonify, request
 import json
+from pathlib import Path
 
 app = Flask(__name__)
 
+datafile = Path(__file__).parent / "enzymes.json"
+
 # Load enzyme data once at startup
-with open('read_in_database/enzymes.json') as f:
+with open(datafile) as f:
     data = json.load(f)
 enzymes = data.get("enzymes", [])
 
