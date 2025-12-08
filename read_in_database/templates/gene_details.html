@@ -22,7 +22,7 @@
                 <tr>
                     <b>reference: </b>
                     {% for ref in summary["reference"] %}
-                    <a href="https://{{ ref }}">
+                    <a href="https://doi.org/{{ ref }}">
                     {{ ref }}
                     </a>
                     {% endfor %}
@@ -61,11 +61,13 @@
                                 <td>{{ column[detail] }}</td>
                                 {% endfor %}
                                 <td>
+                                {% if column["reference"] is not none %}
                                 {% for ref in column["reference"] %}
                                 <a href="https://doi.org/{{ ref }}">
                                     DOI: {{ ref }}
                                 </a>
                                 {% endfor %}
+                                {% endif %}
                                 </td>
                             </tr>
                             {% endfor %}

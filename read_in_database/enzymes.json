@@ -271,7 +271,7 @@
             "mutation": "D16",
             "gene_name": "flA",
             "reference": [
-                "10.1038/nature02280; 10.1039/b600574h"
+                "10.1038/nature02280", "10.1039/b600574h"
             ],
             "created_at": "2025-06-04T15:18:02.052673",
             "parent_entry_id": 5
@@ -282,7 +282,7 @@
             "effect": "hydrogen bond with Cl or F; larger distance with Cl",
             "mutation": "S156?",
             "gene_name": "flA",
-            "reference": "PMCID: PMC3314195",
+            "reference": ["10.1002/anie.200503582"],
             "created_at": "2025-05-14T10:28:16.812621",
             "parent_entry_id": 5
         },
@@ -293,7 +293,7 @@
             "mutation": "Y77",
             "gene_name": "flA",
             "reference": [
-                "10.1038/nature02280; 10.1039/b600574h"
+                "10.1038/nature02280", "10.1039/b600574h"
             ],
             "created_at": "2025-05-14T11:32:48.997598",
             "parent_entry_id": 5
@@ -937,7 +937,7 @@
             "mutation": "H251F",
             "gene_name": "AdaV",
             "reference": [
-                "doi.10.1002/anie.201914994"
+                "10.1002/anie.201914994"
             ],
             "created_at": "2025-07-24T13:29:29.014904",
             "parent_entry_id": 113
@@ -1418,7 +1418,7 @@
             "effect": "lines the Trp binding pocket",
             "mutation": "V82",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1428,7 +1428,7 @@
             "effect": "lines the Trp binding pocket; bounds Trp binding pocket",
             "mutation": "H109",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1438,7 +1438,7 @@
             "effect": "H-bond network; bounds Trp binding pocket",
             "mutation": "P110",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1448,7 +1448,7 @@
             "effect": "lines the Trp binding pocket; bounds Trp binding pocket",
             "mutation": "F111",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1458,7 +1458,7 @@
             "effect": "H-bond network",
             "mutation": "G112",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1468,7 +1468,7 @@
             "effect": "lines the Trp binding pocket; H-bonf with the Trp carboxylate via the hydroxy group",
             "mutation": "Y454",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1478,7 +1478,7 @@
             "effect": "lines the Trp binding pocket",
             "mutation": "Y453",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1488,7 +1488,7 @@
             "effect": "Trp alpha-amino group forms a salt bridge with the side chain carboxylate",
             "mutation": "E460",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1498,7 +1498,7 @@
             "effect": "H-bond network",
             "mutation": "F464",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1508,7 +1508,7 @@
             "effect": "bounds Trp binding pocket",
             "mutation": "V52",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1518,7 +1518,7 @@
             "effect": "bounds Trp binding pocket",
             "mutation": "P53",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1528,7 +1528,7 @@
             "effect": "putative catalytic residue",
             "mutation": "K79",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-05-14T15:36:12.279001",
             "parent_entry_id": 70
         },
@@ -1538,7 +1538,7 @@
             "effect": "lines the Trp binding pocket",
             "mutation": "W465",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1548,7 +1548,7 @@
             "effect": "lines the Trp binding pocket",
             "mutation": "S358",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1558,7 +1558,7 @@
             "effect": "putative catalytic residue; bounds Trp binding pocket",
             "mutation": "E357",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-06-10T14:07:22.55223",
             "parent_entry_id": 70
         },
@@ -1568,7 +1568,7 @@
             "effect": "no detected chlorinated product",
             "mutation": "K79A",
             "gene_name": "BorH",
-            "reference": "{doi.10.1002/cbic.201900667}",
+            "reference": ["10.1002/cbic.201900667"],
             "created_at": "2025-07-25T18:11:38.049395",
             "parent_entry_id": 70
         }
@@ -1593,7 +1593,7 @@
             "mutation": "K83",
             "gene_name": "BrvH",
             "reference": [
-                "10.1371/journal.pone.0196797; 10.1002/cbic.202000444"
+                "10.1371/journal.pone.0196797", "10.1002/cbic.202000444"
             ],
             "created_at": "2025-05-14T15:36:12.279001",
             "parent_entry_id": 77
@@ -1677,7 +1677,7 @@
             "mutation": "F102",
             "gene_name": "BrvH",
             "reference": [
-                "10.1371/journal.pone.0196797; 10.1002/cbic.202000444"
+                "10.1371/journal.pone.0196797", "10.1002/cbic.202000444"
             ],
             "created_at": "2025-06-10T14:16:24.29874",
             "parent_entry_id": 77
@@ -1701,7 +1701,7 @@
             "mutation": "E349",
             "gene_name": "BrvH",
             "reference": [
-                "10.1371/journal.pone.0196797; 10.1002/cbic.202000444"
+                "10.1371/journal.pone.0196797", "10.1002/cbic.202000444"
             ],
             "created_at": "2025-06-10T14:16:24.29874",
             "parent_entry_id": 77
@@ -1734,9 +1734,9 @@
     "gene_ChlA": [
         {
             "id": 1,
+            "phmm": null,
             "effect": "doesn't convert THPH to Cl-THPH",
             "mutation": "K86A",
-            "condition": "extracted ion chromatograms for in vitro activity",
             "gene_name": "ChlA",
             "reference": [
                 "10.1073/pnas.1001681107"
@@ -2696,7 +2696,7 @@
             "mutation": "D282A",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2708,7 +2708,7 @@
             "mutation": "E252A",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2720,7 +2720,7 @@
             "mutation": "HXXDEXH",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:23:02.283476",
             "parent_entry_id": 59
@@ -2732,7 +2732,7 @@
             "mutation": "Q128A",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2744,7 +2744,7 @@
             "mutation": "QEXXH",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-14T15:14:38.77135",
             "parent_entry_id": 59
@@ -2756,7 +2756,7 @@
             "mutation": "E283",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:23:02.283476",
             "parent_entry_id": 59
@@ -2768,7 +2768,7 @@
             "mutation": "E252?",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:23:02.283476",
             "parent_entry_id": 59
@@ -2780,7 +2780,7 @@
             "mutation": "E314",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2792,7 +2792,7 @@
             "mutation": "D282",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:23:02.283476",
             "parent_entry_id": 59
@@ -2804,7 +2804,7 @@
             "mutation": "H317",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2816,7 +2816,7 @@
             "mutation": "Q135",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:23:02.283476",
             "parent_entry_id": 59
@@ -2828,7 +2828,7 @@
             "mutation": "H310",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2840,7 +2840,7 @@
             "mutation": "D313",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:23:02.283476",
             "parent_entry_id": 59
@@ -2852,7 +2852,7 @@
             "mutation": "E103",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2864,7 +2864,7 @@
             "mutation": "E136",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -2876,7 +2876,7 @@
             "mutation": "E139",
             "gene_name": "CylC",
             "reference": [
-                "doi.10.1021/acs.biochem.4c00720"
+                "10.1021/acs.biochem.4c00720"
             ],
             "created_at": "2025-05-15T14:42:25.836887",
             "parent_entry_id": 59
@@ -3944,7 +3944,7 @@
             "effect": "dimeric interface",
             "mutation": "V141",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -3954,7 +3954,7 @@
             "effect": "FAD binding; isoalloxazine ring",
             "mutation": "Tyr299",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -3964,7 +3964,7 @@
             "effect": null,
             "mutation": "Glu35",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -3974,7 +3974,7 @@
             "effect": "hairpin between beta-bet1 strands and helix alpha1; FAD binding",
             "mutation": "GxGxxG",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-14T15:12:30.065064",
             "parent_entry_id": 26
         },
@@ -3984,7 +3984,7 @@
             "effect": "chloride binding; NOT conserved in other FDHs due to lack of bound chloride at analogous site",
             "mutation": "Glu278",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -3994,7 +3994,7 @@
             "effect": "chloride binding; NOT conserved in other FDHs due to lack of bound chloride at analogous site",
             "mutation": "N279",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4004,7 +4004,7 @@
             "effect": "chloride binding; NOT conserved in other FDHs due to lack of bound chloride at analogous site",
             "mutation": "R277",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4014,7 +4014,7 @@
             "effect": "chloride binding; conserved in FDHs",
             "mutation": "W371",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4024,7 +4024,7 @@
             "effect": "FAD binding; oxyanion hole like environment",
             "mutation": "Val329",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4034,7 +4034,7 @@
             "effect": "chlorination mechanism; conserved in Trp-halogenases, but not in homologs; homologs have F326 in this position; FAD binding; isoalloxazine ring",
             "mutation": "Glu296",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4044,7 +4044,7 @@
             "effect": "FAD binding; isoalloxazine ring",
             "mutation": "Trp239",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4054,7 +4054,7 @@
             "effect": "FAD binding; isoalloxazine ring",
             "mutation": "Ala203",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4064,7 +4064,7 @@
             "effect": "FAD binding; isoalloxazine ring",
             "mutation": "Ser326",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4074,7 +4074,7 @@
             "effect": "FAD binding; isoalloxazine ring; chloride binding",
             "mutation": "Pro323",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4084,7 +4084,7 @@
             "effect": "FAD binding; isoalloxazine ring; chloride binding",
             "mutation": "F320",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4094,7 +4094,7 @@
             "effect": "FAD binding; isoalloxazine ring",
             "mutation": "Val44",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4104,7 +4104,7 @@
             "effect": "FAD binding; isoalloxazine ring",
             "mutation": "Gly45",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4114,7 +4114,7 @@
             "effect": "dimeric interface",
             "mutation": "E146",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4124,7 +4124,7 @@
             "effect": "nonpolar interactions between two symmetric patches of hydrophobic surface",
             "mutation": "Ile171",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4134,7 +4134,7 @@
             "effect": "nonpolar interactions between two symmetric patches of hydrophobic surface",
             "mutation": "Val169",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4144,7 +4144,7 @@
             "effect": "nonpolar interactions between two symmetric patches of hydrophobic surface",
             "mutation": "Leu164",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4154,7 +4154,7 @@
             "effect": "nonpolar interactions between two symmetric patches of hydrophobic surface",
             "mutation": "Val145",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4164,7 +4164,7 @@
             "effect": "nonpolar interactions between two symmetric patches of hydrophobic surface",
             "mutation": "Phe142",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4174,7 +4174,7 @@
             "effect": "H-bond with Glu40 main chain NH",
             "mutation": "Glu132",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4184,7 +4184,7 @@
             "effect": "H-bond with Glu132 side chain carboxyl group",
             "mutation": "Glu40",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4194,7 +4194,7 @@
             "effect": "nonpolar interactions between two symmetric patches of hydrophobic surface",
             "mutation": "Arg167",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4204,7 +4204,7 @@
             "effect": "polar-charged residue contact with Arg167",
             "mutation": "Asp5",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4214,7 +4214,7 @@
             "effect": "F39 side chain orientation; holding the diphosphate group; conserved in non-Trp halogenases; in a loop conserved in CmlS, CndH and 3NIX",
             "mutation": "R41",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4224,7 +4224,7 @@
             "effect": "holding the diphosphate group; conserved in non-Trp halogenases; in a loop conserved in CmlS, CndH and 3NIX",
             "mutation": "H43",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4234,7 +4234,7 @@
             "effect": "FAD binding",
             "mutation": "F39",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4244,7 +4244,7 @@
             "effect": "F39 side chain orientation",
             "mutation": "Glu40",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4254,7 +4254,7 @@
             "effect": "Predicted to interact with the phospho group of the substrate",
             "mutation": "R337",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4264,7 +4264,7 @@
             "effect": "chlorination mechanism; conserved in Trp-halogenases, but not in homologs; homologs have F326 in this position",
             "mutation": "Glu345",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4274,7 +4274,7 @@
             "effect": "conserved in FDHS; HOCl diffuses to this residue; Lys73 in PltA, Lys79 in PrnA and RebH, Lys71 in CmlS, Lys76 in CndH",
             "mutation": "Lys73",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4284,7 +4284,7 @@
             "effect": "holding the diphosphate group; conserved in non-Trp halogenases",
             "mutation": "R123",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4294,7 +4294,7 @@
             "effect": "polar-charged residue contact with Glu140",
             "mutation": "Arg128",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         },
@@ -4304,7 +4304,7 @@
             "effect": "main chain carbonyl oxygen is hydrogen bonded to the main chain nitrogen of the same residue of the other monomer and vica versa",
             "mutation": "Gln143",
             "gene_name": "PltA",
-            "reference": "http://10.1016/j.jsb.2015.09.013",
+            "reference": ["10.1016/j.jsb.2015.09.013"],
             "created_at": "2025-05-15T13:27:20.626636",
             "parent_entry_id": 26
         }
@@ -5147,7 +5147,7 @@
             "mutation": "Y455W",
             "gene_name": "RebH",
             "reference": [
-                "10.1002/cbic.202100210; 10.1021/ja2089348"
+                "10.1002/cbic.202100210", "10.1021/ja2089348"
             ],
             "created_at": "2025-07-16T08:38:30.415752",
             "parent_entry_id": 137
@@ -5712,15 +5712,15 @@
             "parent_entry_id": 127
         }
     ],
-    "gene_bmp2": [
+    "gene_Bmp2": [
         {
             "id": 1,
             "phmm": "62",
             "effect": "active site; tetrabromination",
             "mutation": "K74",
-            "gene_name": "bmp2",
+            "gene_name": "Bmp2",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-14T15:12:30.065064",
             "parent_entry_id": 27
@@ -5730,9 +5730,9 @@
             "phmm": "319",
             "effect": "active site; tetrabromination",
             "mutation": "Y302",
-            "gene_name": "bmp2",
+            "gene_name": "Bmp2",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-15T13:14:34.718712",
             "parent_entry_id": 27
@@ -5742,9 +5742,9 @@
             "phmm": "323",
             "effect": "active site; tetrabromination",
             "mutation": "F306",
-            "gene_name": "bmp2",
+            "gene_name": "Bmp2",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-15T13:14:34.718712",
             "parent_entry_id": 27
@@ -5754,9 +5754,9 @@
             "phmm": "363",
             "effect": "active site; tetrabromination",
             "mutation": "A345",
-            "gene_name": "bmp2",
+            "gene_name": "Bmp2",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-15T13:14:34.718712",
             "parent_entry_id": 27
@@ -5766,9 +5766,9 @@
             "phmm": "-",
             "effect": "monobromination",
             "mutation": "Y302S/A345W/F306V",
-            "gene_name": "bmp2",
+            "gene_name": "Bmp2",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-15T13:14:34.718712",
             "parent_entry_id": 27
@@ -6720,7 +6720,7 @@
             "mutation": "K72",
             "gene_name": "Mpy16",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-14T15:12:30.065064",
             "parent_entry_id": 28
@@ -6732,7 +6732,7 @@
             "mutation": "S325",
             "gene_name": "Mpy16",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-15T13:16:26.297086",
             "parent_entry_id": 28
@@ -6744,7 +6744,7 @@
             "mutation": "V329",
             "gene_name": "Mpy16",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-15T13:16:26.297086",
             "parent_entry_id": 28
@@ -6756,7 +6756,7 @@
             "mutation": "W369",
             "gene_name": "Mpy16",
             "reference": [
-                "doi.abs/10.1073/pnas.1519695113"
+                "10.1073/pnas.1519695113"
             ],
             "created_at": "2025-05-15T13:16:26.297086",
             "parent_entry_id": 28
@@ -7460,7 +7460,7 @@
             "gene_name": "CiVCPO",
             "reference": [
                 "10.1021/acscatal.3c00761",
-                "\nS0021-9258(19)55497-7",
+                "\n10.1074/jbc.274.34.23820",
                 "\n10.1074/jbc.275.16.11650"
             ],
             "created_at": "2025-05-15T10:39:34.775511",
@@ -7474,7 +7474,7 @@
             "gene_name": "CiVCPO",
             "reference": [
                 "10.1021/acscatal.3c00761",
-                "\nS0021-9258(19)55497-7",
+                "\n10.1074/jbc.274.34.23820",
                 "\n10.1074/jbc.275.16.11650"
             ],
             "created_at": "2025-05-15T10:39:34.775511",
@@ -7486,7 +7486,7 @@
             "effect": "bromoperoxidase; no chlorination",
             "mutation": "K353A",
             "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
+            "reference": ["10.1074/jbc.274.34.23820"],
             "created_at": "2025-05-15T10:27:21.114789",
             "parent_entry_id": 10
         },
@@ -7496,7 +7496,7 @@
             "effect": "bromoperoxidase; no chlorination",
             "mutation": "R360A",
             "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
+            "reference": ["10.1074/jbc.274.34.23820"],
             "created_at": "2025-05-15T10:27:21.114789",
             "parent_entry_id": 10
         },
@@ -7506,7 +7506,7 @@
             "effect": "bromoperoxidase; no chlorination",
             "mutation": "R490A",
             "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
+            "reference": ["10.1074/jbc.274.34.23820"],
             "created_at": "2025-05-15T10:27:21.114789",
             "parent_entry_id": 10
         },
@@ -7600,7 +7600,7 @@
             "effect": "cannot bind canadate covalently -> inactive enzyme",
             "mutation": "H496A",
             "gene_name": "CiVCPO",
-            "reference": "S0021-9258(19)55497-7",
+            "reference": ["10.1074/jbc.274.34.23820"],
             "created_at": "2025-05-15T10:27:21.114789",
             "parent_entry_id": 10
         },
@@ -8025,7 +8025,7 @@
             "mutation": "R425",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "323",
@@ -8037,7 +8037,7 @@
             "mutation": "F401",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "299",
@@ -8097,7 +8097,7 @@
             "mutation": "R425S",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8109,7 +8109,7 @@
             "mutation": "R425D",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8121,7 +8121,7 @@
             "mutation": "390-404",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8133,7 +8133,7 @@
             "mutation": "His513",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8145,7 +8145,7 @@
             "mutation": "R425S;F401G",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8157,7 +8157,7 @@
             "mutation": "R425;E139G",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8169,7 +8169,7 @@
             "mutation": "Glu139",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8181,7 +8181,7 @@
             "mutation": "Glu399",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:06:46.161821",
             "pHMM_position": "-",
@@ -8193,7 +8193,7 @@
             "mutation": "Lys428",
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.1002/cbic.201600417; 10.5281/zenodo.14544279"
+                "10.1002/cbic.201600417", "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-14T12:54:59.458508",
             "pHMM_position": "-",
@@ -8641,7 +8641,7 @@
                 "producer": "viridochromogenes GW4-AM1"
             },
             "gene_name": "AviH",
-            "reference": "cell.com/AJHG/fulltext/S1074-5521(01)00040-0",
+            "reference": ["10.1016/S1074-5521(01)00040-0"],
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 50
         }
@@ -8718,7 +8718,7 @@
         {
             "id": 1,
             "summary": {
-                "test": "150 mM NaCl, pH 7.5 with 67 μM ChlA, 4.5 μM SsuE, 10 mM NADH, 100 μM FAD",
+                "test": "150 mM NaCl, pH 7.5 with 67 μM ChlA, 4.5 μM SsuE, 10 mM NADH, 100 μM FAD;\nextracted ion chromatograms for in vitro activity",
                 "producer": "Dictyostelium strains Ax2 and Ax4",
                 "halide-source": "NaCl"
             },
@@ -8782,7 +8782,7 @@
                 "halide-source": "5-fluoro-tryptophan (addition to cultures, fluorochondramide A and C), NaCl"
             },
             "gene_name": "CmdE",
-            "reference": "http://10.1016/j.chembiol.2006.06.002",
+            "reference": ["10.1016/j.chembiol.2006.06.002"],
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 79
         }
@@ -8826,7 +8826,7 @@
             },
             "gene_name": "CndH",
             "reference": [
-                "DOI 10.1016/j.chembiol.2008.11.005"
+                "10.1016/j.chembiol.2008.11.005"
             ],
             "created_at": "2025-06-04T11:35:45.444377",
             "parent_entry_id": 134
@@ -8861,7 +8861,7 @@
             },
             "gene_name": "CtoA",
             "reference": [
-                "doi.10.1021/acschembio.5b00523"
+                "10.1021/acschembio.5b00523"
             ],
             "created_at": "2025-06-04T11:37:04.132764",
             "parent_entry_id": 136
@@ -9454,7 +9454,7 @@
             "parent_entry_id": 35
         }
     ],
-    "summary_bmp2": [
+    "summary_Bmp2": [
         {
             "id": 1,
             "summary": {
@@ -9462,7 +9462,7 @@
                 "producer": "Pseudoalteromonas spp.",
                 "phmm-model": "FDH_pyrrole.hmm"
             },
-            "gene_name": "bmp2",
+            "gene_name": "Bmp2",
             "reference": [
                 "10.1038/nchembio.1564"
             ],
@@ -9760,7 +9760,7 @@
             "mutation": null,
             "gene_name": "Zg-VIPO2",
             "reference": [
-                "doi.10.1128/aem.02430-14"
+                "10.1128/aem.02430-14"
             ],
             "created_at": "2025-05-14T14:13:59.238561",
             "parent_entry_id": 19
@@ -9953,7 +9953,7 @@
             },
             "gene_name": "MarH1",
             "reference": [
-                "doi-org.proxy.findit.cvt.dk/10.1002/ange.201804351"
+                "10.1002/ange.201804351"
             ],
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 63
@@ -9971,7 +9971,7 @@
             },
             "gene_name": "MarH3",
             "reference": [
-                "doi-org.proxy.findit.cvt.dk/10.1002/ange.201804351"
+                "10.1002/anie.201804351"
             ],
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 64
@@ -10241,7 +10241,7 @@
                 "halide-source": "˝appropriate concentrations of the substrates chloride or bromide˝"
             },
             "gene_name": "CiVCPO",
-            "reference": "jbc.org/article/S0021-9258(19)55497-7/fulltext",
+            "reference": ["10.1074/jbc.274.34.23820"],
             "created_at": "2025-05-16T09:36:52.629677",
             "parent_entry_id": 10
         }
@@ -10435,7 +10435,7 @@
             },
             "gene_name": "AmVBPO1",
             "reference": [
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "created_at": "2025-05-19T11:23:31.383932",
             "parent_entry_id": 11
@@ -10708,7 +10708,7 @@
             "fluoride": "not tested",
             "function": "halogenation",
             "accession": "AKJ75108.1",
-            "gene_name": "bmp2",
+            "gene_name": "Bmp2",
             "reference": [
                 "10.1073/pnas.1519695113",
                 "10.1038/nchembio.1564"
@@ -10895,7 +10895,7 @@
             "gene_name": "AmVBPO2",
             "reference": [
                 "10.1002/cbic.201600417",
-                "10.5281/zenodo.14544279"
+                "10.1038/s41467-025-57023-1"
             ],
             "validation_type": "in vitro"
         },
@@ -11892,7 +11892,7 @@
             "accession": null,
             "gene_name": "TiaM",
             "reference": [
-                "10.1021/acs.jnatprod.7b00990, 10.1002/hlca.202000130",
+                "10.1021/acs.jnatprod.7b00990", "10.1002/hlca.202000130",
                 "10.1021/ja109445q"
             ],
             "validation_type": "in vivo,\nin vitro"
@@ -12087,7 +12087,7 @@
             "accession": "AFV96137.1",
             "gene_name": "CylC",
             "reference": [
-                "10.1186/s12864-021-07939-x, 10.1038/nchembio.2421",
+                "10.1186/s12864-021-07939-x", "10.1038/nchembio.2421",
                 "10.1021/acs.biochem.4c00720"
             ],
             "validation_type": "in vivo,\nin vitro"
@@ -12137,7 +12137,7 @@
             "accession": "AAY42394.1",
             "gene_name": "HctB",
             "reference": [
-                "10.1021/ja503179m, 10.1002/cbic.201300345",
+                "10.1021/ja503179m", "10.1002/cbic.201300345",
                 "10.3389/fchem.2018.00513"
             ],
             "validation_type": "in vitro"
@@ -12170,7 +12170,7 @@
             "accession": "6FRL",
             "gene_name": "BrvH",
             "reference": [
-                "10.1371/journal.pone.0196797; 10.1002/cbic.202000444"
+                "10.1371/journal.pone.0196797", "10.1002/cbic.202000444"
             ],
             "validation_type": "in vitro"
         },
@@ -12547,7 +12547,7 @@
             "accession": "Q9AL91",
             "gene_name": "CmlS",
             "reference": [
-                "10.1107/S1744309108043091, 10.1016/j.jmb.2010.01.020",
+                "10.1107/S1744309108043091", "10.1016/j.jmb.2010.01.020",
                 "10.1099/mic.0.26319-0"
             ],
             "validation_type": "in vivo"
