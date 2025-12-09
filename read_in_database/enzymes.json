@@ -944,15 +944,7 @@
         }
     ],
     "gene_AetA": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "AetA",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 72
-        }
+        {}
     ],
     "gene_AetF": [
         {
@@ -1137,15 +1129,7 @@
         }
     ],
     "gene_AoiQ": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "AoiQ",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 53
-        }
+        {}
     ],
     "gene_AviH": [
         {
@@ -1401,15 +1385,7 @@
         }
     ],
     "gene_Bmp5": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Bmp5",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 33
-        }
+        {}
     ],
     "gene_BorH": [
         {
@@ -1574,16 +1550,7 @@
         }
     ],
     "gene_BrtJ": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "BrtJ",
-            "reference": null,
-            "created_at": "2025-05-14T15:42:05.558677",
-            "parent_entry_id": 86
-        }
+        {}
     ],
     "gene_BrvH": [
         {
@@ -1746,15 +1713,7 @@
         }
     ],
     "gene_CmaB": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "CmaB",
-            "reference": null,
-            "created_at": "2025-05-20T16:57:27.0795",
-            "parent_entry_id": 121
-        }
+        {}
     ],
     "gene_CmlS": [
         {
@@ -1905,28 +1864,10 @@
         }
     ],
     "gene_ColD": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "ColD",
-            "reference": null,
-            "created_at": "2025-05-15T09:49:21.052701",
-            "parent_entry_id": 89
-        }
+        {}
     ],
     "gene_ColE": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "ColE",
-            "reference": null,
-            "created_at": "2025-05-15T09:49:21.052701",
-            "parent_entry_id": 90
-        }
+        {}
     ],
     "gene_CtcP": [
         {
@@ -2328,27 +2269,10 @@
         }
     ],
     "gene_CtoA": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "CtoA",
-            "reference": null,
-            "created_at": "2025-06-04T11:37:04.132764",
-            "parent_entry_id": 136
-        }
+        {}
     ],
     "gene_Cts4": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "Cts4",
-            "reference": null,
-            "created_at": "2025-07-01T14:37:40.186302",
-            "parent_entry_id": 129
-        }
+        {}
     ],
     "gene_CurA": [
         {
@@ -3221,15 +3145,7 @@
         }
     ],
     "gene_HalB": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "HalB",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 25
-        }
+        {}
     ],
     "gene_HctB": [
         {
@@ -3294,104 +3210,31 @@
         }
     ],
     "gene_HrmQ": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "HrmQ",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 29
-        }
+        {}
     ],
     "gene_JamD": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "JamD",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 68
-        }
+        {}
     ],
     "gene_KrmI": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "KrmI",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 83
-        }
+        {}
     ],
     "gene_KthP": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "KthP",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 114
-        }
+        {}
     ],
     "gene_KtzD": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "KtzD",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 115
-        }
+        {}
     ],
     "gene_KtzQ": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "KtzQ",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 66
-        }
+        {}
     ],
     "gene_KtzR": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "KtzR",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 67
-        }
+        {}
     ],
     "gene_L1pH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "L1pH",
-            "reference": null,
-            "created_at": "2025-05-26T16:42:15.648604",
-            "parent_entry_id": 131
-        }
+        {}
     ],
     "gene_LvcH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "LvcH",
-            "reference": null,
-            "created_at": "2025-05-14T15:17:28.35162",
-            "parent_entry_id": 60
-        }
+        {}
     ],
     "gene_MalA": [
         {
@@ -3698,15 +3541,7 @@
         }
     ],
     "gene_Nat1": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Nat1",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 34
-        }
+        {}
     ],
     "gene_NocO": [
         {
@@ -3927,15 +3762,7 @@
         }
     ],
     "gene_PhmJ": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "PhmJ",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 69
-        }
+        {}
     ],
     "gene_PltA": [
         {
@@ -4576,16 +4403,7 @@
         }
     ],
     "gene_PolK": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "PolK",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 58
-        }
+        {}
     ],
     "gene_PrnA": [
         {
@@ -4878,26 +4696,10 @@
         }
     ],
     "gene_PrnC": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "PrnC",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 30
-        }
+        {}
     ],
     "gene_PyrH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "PyrH",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 74
-        }
+        {}
     ],
     "gene_RebH": [
         {
@@ -5612,105 +5414,31 @@
         }
     ],
     "gene_SpH1": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "SpH1",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 80
-        }
+        {}
     ],
     "gene_SpH2": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "SpH2",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 81
-        }
+        {}
     ],
     "gene_SpmH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "SpmH",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 82
-        }
+        {}
     ],
     "gene_SttH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "SttH",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 75
-        }
+        {}
     ],
     "gene_ThnH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "ThnH",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 73
-        }
+        {}
     ],
     "gene_TiaM": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "TiaM",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 42
-        }
+        {}
     ],
     "gene_VhaA": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "VhaA",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 43
-        }
+        {}
     ],
     "gene_XanH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "XanH",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 35
-        }
+        {}
     ],
     "gene_XanJ": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "XanJ",
-            "reference": null,
-            "created_at": "2025-06-17T12:53:32.163045",
-            "parent_entry_id": 127
-        }
+        {}
     ],
     "gene_Bmp2": [
         {
@@ -5825,26 +5553,10 @@
         }
     ],
     "gene_flA2": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "flA2",
-            "reference": null,
-            "created_at": "2025-05-14T10:28:16.812621",
-            "parent_entry_id": 3
-        }
+        {}
     ],
     "gene_flA3": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "flA3",
-            "reference": null,
-            "created_at": "2025-05-14T10:28:16.812621",
-            "parent_entry_id": 4
-        }
+        {}
     ],
     "gene_flA4": [
         {
@@ -5949,48 +5661,16 @@
         }
     ],
     "gene_AmbO5": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "AmbO5",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 107
-        }
+        {}
     ],
     "gene_Asm12": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Asm12",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 57
-        }
+        {}
     ],
     "gene_BarB1": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "BarB1",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 105
-        }
+        {}
     ],
     "gene_BarB2": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "BarB2",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 106
-        }
+        {}
     ],
     "gene_CVBPO": [
         {
@@ -6669,48 +6349,16 @@
         }
     ],
     "gene_End30": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "End30",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 41
-        }
+        {}
     ],
     "gene_MarH1": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "MarH1",
-            "reference": null,
-            "created_at": "2025-05-14T15:17:28.35162",
-            "parent_entry_id": 63
-        }
+        {}
     ],
     "gene_MarH3": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "MarH3",
-            "reference": null,
-            "created_at": "2025-05-14T15:17:28.35162",
-            "parent_entry_id": 64
-        }
+        {}
     ],
     "gene_Mcl40": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Mcl40",
-            "reference": null,
-            "created_at": "2025-05-14T15:17:28.35162",
-            "parent_entry_id": 62
-        }
+        {}
     ],
     "gene_Mpy16": [
         {
@@ -6933,16 +6581,7 @@
         }
     ],
     "gene_NapH2": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "condition": null,
-            "gene_name": "NapH2",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 39
-        }
+        {}
     ],
     "gene_NapH4": [
         {
@@ -7013,15 +6652,7 @@
         }
     ],
     "gene_Ram20": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Ram20",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 40
-        }
+        {}
     ],
     "gene_SaDAH": [
         {
@@ -7037,15 +6668,7 @@
         }
     ],
     "gene_SgcC3": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "SgcC3",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 55
-        }
+        {}
     ],
     "gene_SyrB2": [
         {
@@ -7206,48 +6829,16 @@
         }
     ],
     "gene_Tar14": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Tar14",
-            "reference": null,
-            "created_at": "2025-05-14T15:36:12.279001",
-            "parent_entry_id": 76
-        }
+        {}
     ],
     "gene_Tcp21": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Tcp21",
-            "reference": null,
-            "created_at": "2025-05-14T15:12:30.065064",
-            "parent_entry_id": 44
-        }
+        {}
     ],
     "gene_VaNTH": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "VaNTH",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 111
-        }
+        {}
     ],
     "gene_VirX1": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "VirX1",
-            "reference": null,
-            "created_at": "2025-05-14T15:37:12.413296",
-            "parent_entry_id": 85
-        }
+        {}
     ],
     "gene_WelO5": [
         {
@@ -7285,37 +6876,13 @@
         }
     ],
     "gene_dAMP1": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "dAMP1",
-            "reference": null,
-            "created_at": "2025-05-20T16:57:27.0795",
-            "parent_entry_id": 120
-        }
+        {}
     ],
     "gene_dAMP2": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "dAMP2",
-            "reference": null,
-            "created_at": "2025-05-20T16:57:27.0795",
-            "parent_entry_id": 119
-        }
+        {}
     ],
     "gene_dAMP3": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "dAMP3",
-            "reference": null,
-            "created_at": "2025-05-20T16:57:27.0795",
-            "parent_entry_id": 118
-        }
+        {}
     ],
     "gene_DnHal": [
         {}
@@ -7945,26 +7512,10 @@
         }
     ],
     "gene_PkHalD": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "PkHalD",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 110
-        }
+        {}
     ],
     "gene_SwHalB": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "SwHalB",
-            "reference": null,
-            "created_at": "2025-05-20T16:53:31.822888",
-            "parent_entry_id": 108
-        }
+        {}
     ],
     "summary_flA": [
         {
@@ -8396,37 +7947,13 @@
         }
     ],
     "gene_LdVBPO1": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "LdVBPO1",
-            "reference": null,
-            "created_at": "2025-05-19T12:53:21.834696",
-            "parent_entry_id": 97
-        }
+        {}
     ],
     "gene_LdVBPO2": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "LdVBPO2",
-            "reference": null,
-            "created_at": "2025-05-19T12:53:21.834696",
-            "parent_entry_id": 96
-        }
+        {}
     ],
     "gene_RhoVCPO": [
-        {
-            "id": 1,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "RhoVCPO",
-            "reference": null,
-            "created_at": "2025-07-02T12:39:36.977556",
-            "parent_entry_id": 130
-        }
+        {}
     ],
     "gene_SyVHPO1": [
         {
@@ -9753,18 +9280,7 @@
         }
     ],
     "gene_Zg_VIPO2": [
-        {
-            "id": 1,
-            "phmm": null,
-            "effect": null,
-            "mutation": null,
-            "gene_name": "Zg-VIPO2",
-            "reference": [
-                "10.1128/aem.02430-14"
-            ],
-            "created_at": "2025-05-14T14:13:59.238561",
-            "parent_entry_id": 19
-        }
+        {}
     ],
     "summary_AmbO5": [
         {
