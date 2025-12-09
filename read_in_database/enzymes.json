@@ -8017,12 +8017,12 @@
             "parent_entry_id": 16
         }
     ],
-    "gene_SyVHPO2": [
+    "gene_SyVHPO1_2": [
         {
             "id": 1,
             "effect": "vanadium coordination",
             "mutation": "AVRYQK",
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
@@ -8033,7 +8033,7 @@
             "id": 2,
             "effect": "vanadium coordination",
             "mutation": "KFNNHLRLR",
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
@@ -8044,7 +8044,7 @@
             "id": 3,
             "effect": "active site",
             "mutation": "HPAYGAGH",
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
@@ -8055,7 +8055,7 @@
             "id": 4,
             "effect": "vanadium coordination",
             "mutation": "NISIGR",
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
@@ -8066,7 +8066,7 @@
             "id": 5,
             "effect": "vanadium coordination",
             "mutation": "RNMAGVH",
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
@@ -10076,14 +10076,14 @@
             "parent_entry_id": 16
         }
     ],
-    "summary_SyVHPO2": [
+    "summary_SyVHPO1_2": [
         {
             "id": 1,
             "summary": {
                 "test": "MCD assay, 100 mM KBr in 100 mM MES buffer (pH 7.0), 60 microM MCD; Thymol blue",
                 "producer": "Synechococcus sp. CC9311"
             },
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
@@ -11100,7 +11100,7 @@
             "fluoride": "not tested",
             "function": "halogenation",
             "accession": "ABI46359.1",
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
@@ -11148,7 +11148,7 @@
             "fluoride": "not tested",
             "function": "halogenation",
             "accession": "WP_011620573.1",
-            "gene_name": "SyVHPO2",
+            "gene_name": "SyVHPO1_2",
             "reference": [
                 "10.1111/j.1529-8817.2011.01007.x"
             ],
