@@ -6667,6 +6667,19 @@
             "parent_entry_id": 109
         }
     ],
+    "gene_ApnU": [
+        {
+            "id": 1,
+            "effect": "",
+            "mutation": "",
+            "gene_name": "",
+            "reference": [
+                ""
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        }
+    ],
     "gene_SgcC3": [
         {}
     ],
@@ -10142,6 +10155,23 @@
             "parent_entry_id": 7
         }
     ],
+    "summary_ApnU": [
+        {
+            "id": 1,
+            "summary": {
+                "host": "",
+                "test": "",
+                "producer": "Penicillium oxalicum FO-125",
+                "phmm-model": "copper-dependent.hmm"
+            },
+            "gene_name": "ApnU",
+            "reference": [
+                "10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "2025-12-18T09:36:52.629677",
+            "parent_entry_id": 141
+        }
+    ],
     "enzymes": [
         {
             "id": 73,
@@ -12161,6 +12191,22 @@
             "gene_name": "LvcH",
             "reference": [
                 "10.1021/acs.orglett.4c01869"
+            ],
+            "validation_type": "in vitro"
+        },
+        {
+            "id": 141,
+            "family": "Copper-dependent",
+            "iodide": "utilized",
+            "bromide": "utilized",
+            "cloride": "utilized",
+            "species": "Penicillium oxalicum FO-125",
+            "fluoride": "not utilized",
+            "function": "halogenation",
+            "accession": "S8B5U1",
+            "gene_name": "ApnU",
+            "reference": [
+                "10.1038/s41586-024-08362-4"
             ],
             "validation_type": "in vitro"
         }
