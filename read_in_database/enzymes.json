@@ -6670,11 +6670,143 @@
     "gene_ApnU": [
         {
             "id": 1,
-            "effect": "",
-            "mutation": "",
+            "effect": "loss of catalytic function",
+            "mutation": "C173S",
             "gene_name": "",
             "reference": [
-                ""
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "C200S",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "C210S",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "C237S",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "C253S",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "C277S",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "C210S/C237S",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "H169A",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "H172A",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "H196A",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "loss of catalytic function",
+            "mutation": "H199A",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "helice forming the dimer interface, crosslinked with C210-C237 disulfide bond",
+            "mutation": "T166-K186",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
+            ],
+            "created_at": "",
+            "parent_entry_id": 141
+        },
+                {
+            "id": 1,
+            "effect": "helice forming the dimer interface, crosslinked with C210-C237 disulfide bond",
+            "mutation": "T94-K211",
+            "gene_name": "",
+            "reference": [
+                "doi-org.proxy.findit.cvt.dk/10.1038/s41586-024-08362-4"
             ],
             "created_at": "",
             "parent_entry_id": 141
@@ -10159,8 +10291,8 @@
         {
             "id": 1,
             "summary": {
-                "host": "",
-                "test": "",
+                "host": "E. coli BL21(DE3)",
+                "test": "LC-MS analysis of activity assay results, inactive under anaerobic conditions and ascorbate is essential reductant for the assay",
                 "producer": "Penicillium oxalicum FO-125",
                 "phmm-model": "copper-dependent.hmm"
             },
