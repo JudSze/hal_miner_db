@@ -1,4 +1,5 @@
-hal_db
+hal_db-venv
 .env
 test
 backup_*
+*_copy.*

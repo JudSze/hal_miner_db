@@ -8097,7 +8097,7 @@
     "gene_LdVBPO2": [
         {}
     ],
-    "gene_RhoVCPO": [
+    "gene_RhobaVHPO": [
         {}
     ],
     "gene_SyVHPO1": [
@@ -10193,7 +10193,7 @@
             "parent_entry_id": 96
         }
     ],
-    "summary_RhoVCPO": [
+    "summary_RhobaVHPO": [
         {
             "id": 1,
             "summary": {
@@ -10203,8 +10203,8 @@
                 "producer": "Rhodopirellula baltica",
                 "halide-source": "200 microM KCl or KBr"
             },
-            "gene_name": "RhoVCPO",
-            "reference": "this paper",
+            "gene_name": "RhobaVHPO",
+            "reference": ["10.64898/2026.01.20.700248"],
             "created_at": "2025-07-02T12:39:36.977556",
             "parent_entry_id": 130
         }
@@ -10539,7 +10539,7 @@
             "fluoride": "not tested",
             "function": "halogenation",
             "accession": null,
-            "gene_name": "RhoVCPO",
+            "gene_name": "RhobaVHPO",
             "reference": [],
             "validation_type": "in vitro"
         },
