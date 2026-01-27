@@ -10540,7 +10540,7 @@
             "function": "halogenation",
             "accession": null,
             "gene_name": "RhobaVHPO",
-            "reference": [],
+            "reference": ["10.64898/2026.01.20.700248"],
             "validation_type": "in vitro"
         },
         {
